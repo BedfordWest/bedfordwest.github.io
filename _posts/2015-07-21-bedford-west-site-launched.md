@@ -10,7 +10,7 @@ to try out GitHub pages with [Jekyll](http://jekyllrb.com) to maintain my site a
 This is the first post resulting from this effort.
 
 So far, the whole thing is pretty easy and quick to set up. It takes only a few minutes,
-and so long as you have a basic understanding of markup and git, everything is very
+and so long as you have a basic understanding of markdown and git, everything is very
 straightforward.
 
 My hope is to maintain a professional and technical blog on here where I comment on tech news
