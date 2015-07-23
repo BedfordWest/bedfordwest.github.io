@@ -31,6 +31,7 @@ thought, I decided the only system I can initially think of which fits this crit
 tool I developed to help procedurally generate my stages for the game.
 
 It works like [this](http://gamedevelopment.tutsplus.com/tutorials/generate-random-cave-levels-using-cellular-automata--gamedev-9664):
+
 1. Provide the map generator with some set of parameters to determine size, spaciousness, and general shape.
 2. Iterate through an algorithm a number of times to refine the map to the desired shape.
 3. Clean up the produced map to ensure it fits the parameters necessary for the game.
