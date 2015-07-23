@@ -1,3 +1,9 @@
+---
+layout: post
+title: "On Decoupling"
+date: 2015-07-22
+---
+
 After working in the software industry for a while, I've realized the importance of decoupling when designing code.
 What is decoupling in the context of development? Essentially, it's *the practice of removing interactivity between
 pieces of code which can or should operate independently*. In object oriented programming, for example, this might
