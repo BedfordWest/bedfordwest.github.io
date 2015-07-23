@@ -12,10 +12,10 @@ independently from one another.
 
 I won't rehash the numerous things that have been said about why this is important, but the short summary is the
 following:
-* Decoupled code is less likely to break when something unrelated is modified
-* It is often easier to read and understand decoupled code
-* Decoupling code can facilitate Test-Driven Development and unit testing
-* It is usually easier to maintain and troubleshoot decoupled code
+ * Decoupled code is less likely to break when something unrelated is modified
+ * It is often easier to read and understand decoupled code
+ * Decoupling code can facilitate Test-Driven Development and unit testing
+ * It is usually easier to maintain and troubleshoot decoupled code
 
 A few months ago, I spent some time learning a Java-based game development framework called 
 [libGDX](http://libgdx.badlogicgames.com/). After working on a hobby game project for a few weeks, I became
