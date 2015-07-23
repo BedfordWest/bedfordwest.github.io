@@ -12,6 +12,7 @@ independently from one another.
 
 I won't rehash the numerous things that have been said about why this is important, but the short summary is the
 following:
+
  * Decoupled code is less likely to break when something unrelated is modified
  * It is often easier to read and understand decoupled code
  * Decoupling code can facilitate Test-Driven Development and unit testing
