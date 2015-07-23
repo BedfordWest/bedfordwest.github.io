@@ -58,7 +58,7 @@ Right, so starting at the top...
     public class MapGenerator
     {
     
-Oh boy. So, this isn't a great start. What's the problem? Well, first of all, the very package name this class belongs to indicates a problem. *com.gletho.levels* is a clear indication that this class is meant to exist within a package directly tied to the level generation of my game, Gletho. If this tool is supposed to exist indepdently of the game, that's clearly not going to work.
+Oh boy. So, this isn't a great start. What's the problem? Well, first of all, the very package name this class belongs to indicates a problem. *com.gletho.levels* is a clear indication that this class is meant to exist within a package directly tied to the level generation of my game, Gletho. If this tool is supposed to exist independently of the game, that's clearly not going to work.
 
 Next, we see that this class imports functionality from both the game and the Gdx libraries. This is clearly a problem, since neither would work if this were published as an independent toolset.
 
