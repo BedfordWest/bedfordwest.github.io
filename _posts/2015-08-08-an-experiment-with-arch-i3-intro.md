@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An Experiment with Arch and i3 Tiling Windows Manager"
+title: "An Experiment with Arch and i3 Tiling Window Manager"
 date: 2015-08-08
 ---
 
