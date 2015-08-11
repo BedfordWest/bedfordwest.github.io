@@ -26,7 +26,7 @@ things like install a Windows Manager.
 Here's the thing: based on the way the instructions were written, I assumed I just needed to install my video drivers,
 then Xorg, then [Bumblebee](http://bumblebee-project.org/) (an open source implementation of Optimus) and I would be on
 my way. The problem is that, upon doing this, I was receiving all sorts of fun errors when attempting to load Xorg
-or run `optimus glxgears -info`. These errors were generally of the fashion "systemd-logind: failed to get session: 
+or run `optirun glxgears -info`. These errors were generally of the fashion "systemd-logind: failed to get session: 
 PID XXX does not belong to any known session" or "could not detect any displays" or "could not detect any devices."
 The problem with these errors is that they are actually fairly common, which means they arise from a number of possible
 conditions. This led me to follow a number of support threads and sections of the Arch Wiki to no avail.
