@@ -18,3 +18,5 @@ mobile in my laptop to carry my work with my while the summer remains.
 
 So, here goes nothing! This post will service as both the introduction and sort of a "Table of Contents"
 of my, hopefully, future posts on the subject.
+
+1. [Part 1 - Adventures with Xorg!](http://bedfordwest.github.io/blog/2015/08/11/an-experiment-with-arch-i3-pt1/)
