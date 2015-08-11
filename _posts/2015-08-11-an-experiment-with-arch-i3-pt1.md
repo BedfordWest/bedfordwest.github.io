@@ -34,7 +34,7 @@ conditions. This led me to follow a number of support threads and sections of th
 After tinkering around with things for two full nights and stumbling upon various threads, I finally solved my problem.
 It turns out, I think, that my problem was as simple as not understanding the components of Xorg and what was actually
 necessary for it to draw to the screen. For starters, when I installed the Xorg packages, I didn't realize that
-`pacman -S xorg` would not install all of the necessary dependancies when I select "all" for the packages to install.
+`pacman -S xorg` would not install all of the necessary dependencies when I select "all" for the packages to install.
 I actually had to manually install `xorg-server`, `xorg-utils`, `xorg-init`, `xorg-server-utils`, and `xorg-term`. In
 addition, I didn't realize that I had to copy over an [.xinitrc](https://wiki.archlinux.org/index.php/Xinitrc) file
 to my home directory and then include an `exec <display manager>` command in there somewhere. So, once I learned this
