@@ -24,7 +24,7 @@ came immediately after finishing this guide, when I tried to follow the General 
 things like install a Windows Manager.
 
 Here's the thing: based on the way the instructions were written, I assumed I just needed to install my video drivers,
-then Xorg, then [Bumblebee](http://bumblebee-project.org/)(an open source implementation of Optimus) and I would be on
+then Xorg, then [Bumblebee](http://bumblebee-project.org/) (an open source implementation of Optimus) and I would be on
 my way. The problem is that, upon doing this, I was receiving all sorts of fun errors when attempting to load Xorg
 or run `optimus glxgears -info`. These errors were generally of the fashion "systemd-logind: failed to get session: 
 PID XXX does not belong to any known session" or "could not detect any displays" or "could not detect any devices."
