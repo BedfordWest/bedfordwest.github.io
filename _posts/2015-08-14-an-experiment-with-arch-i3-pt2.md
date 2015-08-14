@@ -9,12 +9,14 @@ The joy of learning continues as I move forward with my attempt at setting up a 
 environment on my laptop. 
 
 Progress:
+
   * Arch installed
   * i3 installed
   * i3 boots up and displays separate workspaces on each display when connected to an external monitor
   * Wi-Fi working with NetworkManager
 
 Known Problems:
+
   * No sound
   * Ugly interface
   * No backup/snapshot system installed
