@@ -54,7 +54,7 @@ configuration. This command was simply `xrandr --output eDP1 --auto --left-of VG
 display and VGA1 is my external monitor. In order for this setting to work with i3, however, I needed to add the
 command as an executable statement in my `~/.i3/config` file. The syntax for this was simply
 `exec --no-startup-id xrandr --output eDP1 --auto --left-of VGA1`. Once I did this, my external display now displayed
-output indepdently from my laptop primary display and defaulted to a separate workspace, as expected!
+output independently from my laptop primary display and defaulted to a separate workspace, as expected!
 
 Despite hearing so many terrible things about setting up Wi-Fi on Linux and, despite having a wireless adaptor known
 to have conflicts with Linux, I actually had a fairly easy time getting my Wi-Fi to work. I simply needed to identify
