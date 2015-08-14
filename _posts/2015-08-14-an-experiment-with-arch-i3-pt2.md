@@ -52,7 +52,7 @@ The [xrandr utility](https://wiki.archlinux.org/index.php/Xrandr) is packaged wi
 displays. It turns out executing a particular xrandr command would set the output of my external monitor to my desired 
 configuration. This command was simply `xrandr --output eDP1 --auto --left-of VGA1`, where eDP1 is my laptop primary 
 display and VGA1 is my external monitor. In order for this setting to work with i3, however, I needed to add the
-command as as executable statement in my `~/.i3/config` file. The syntax for this was simply
+command as an executable statement in my `~/.i3/config` file. The syntax for this was simply
 `exec --no-startup-id xrandr --output eDP1 --auto --left-of VGA1`. Once I did this, my external display now displayed
 output indepdently from my laptop primary display and defaulted to a separate workspace, as expected!
 
