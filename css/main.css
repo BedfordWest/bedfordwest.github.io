@@ -39,7 +39,8 @@ ul.posts {
 }
 
 ul.posts img {
-    width: 1000px;
+    height: 100%;
+    width: 100%;
 }
 
 ul.posts li {
