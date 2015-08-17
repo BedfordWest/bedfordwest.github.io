@@ -21,3 +21,4 @@ of my, hopefully, future posts on the subject.
 
 1. [Part 1 - Adventures with Xorg!](http://bedfordwest.github.io/blog/2015/08/11/an-experiment-with-arch-i3-pt1/)
 2. [Part 2 - External Woes](http://bedfordwest.github.io/blog/2015/08/14/an-experiment-with-arch-i3-pt2/)
+3. [Part 3 - Looking Good](http://bedfordwest.github.io/blog/2015/08/17/an-experiment-with-arch-i3-pt3/)
