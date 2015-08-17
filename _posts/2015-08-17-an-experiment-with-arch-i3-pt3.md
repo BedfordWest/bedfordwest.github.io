@@ -22,7 +22,7 @@ particular), grabbed a plugin for Firefox, and started tweaking some settings. I
 [Xfce4 Terminal](http://docs.xfce.org/apps/terminal/advanced).
 
 After tweaking a bunch of settings, here is a screenshot I took on Friday:
-![Arch+i3 Setup](/images/arch_8_15.jpg)
+[[images/arch_8_15.jpg|width=1000px]]
 
 I've since removed the scrollbars from the terminal windows and adjusted my DPI settings to more accurately fit my
 displays. I have to say, I'm really enjoying it so far! Everything looks great, and it seems like a very fitting
