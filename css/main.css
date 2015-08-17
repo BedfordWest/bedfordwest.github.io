@@ -38,6 +38,10 @@ ul.posts {
     font-size: 1.5em;
 }
 
+ul.posts img {
+    width: 1000px;
+}
+
 ul.posts li {
     list-style: none;
 }
