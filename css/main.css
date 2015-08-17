@@ -38,11 +38,11 @@ ul.posts {
     font-size: 1.5em;
 }
 
-ul.posts img {
-    height: 100%;
-    width: 100%;
-}
-
 ul.posts li {
     list-style: none;
+}
+
+.posts img {
+    height: 100%;
+    width: 100%;
 }
