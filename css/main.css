@@ -46,3 +46,24 @@ ul.posts li {
     height: 100%;
     width: 100%;
 }
+
+#nav_buttons li {
+    float: left;
+    test-align: center;
+    background-color: #000000;
+    margin-right: 30px;
+    width: 150px;
+    line-height: 60px;
+}
+
+#nav_buttons li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+
+#nav_buttons li a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #33B5E5;
+}
