@@ -1,0 +1,9 @@
+- id: Bedford West
+  bio: "Software engineer and game dev enthusiast"
+  avatar: '../assets/images/me2.png'
+
+- id: Donald Duck
+  bio: "He is a duck"
+  avatar: '../assets/images/duck_avatar.jpeg'
+
+
