@@ -30,6 +30,14 @@ const blogPost = css`
     font-size: 14px;
     white-space: pre-wrap;
   }
+  div.multiImage p {
+    display: flex;
+    width: 100%;
+  }
+  div.multiImage p a {
+    flex: 1 1 20%;
+    margin: 0 4px;
+  }
 `;
 
 const Template = ({ data }) => {
