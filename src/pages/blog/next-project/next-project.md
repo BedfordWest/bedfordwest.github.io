@@ -20,7 +20,7 @@ In addition to the question about *what* to work on next, there's also the quest
 </div>
 
 For me, I have the following considerations:
-* I'm already pretty competant with Java due to my experience with LibGdx and Selenium/Cucumber-JVM at work.
+* I'm already pretty competant with Java due to my experience with [libGDX](https://libgdx.badlogicgames.com/) and [Selenium](https://www.seleniumhq.org/)/[Cucumber-JVM](https://cucumber.io/docs/reference/jvm) at work.
 * I've recently been working with JavaScript/React for my personal site and some work side projects, but still at a basic competancy.
 * I've worked with Python some at my last job, but never really got in depth with it or especially comfortable.
 * I worked with C and C++ in the past for learning, school, and hobby game dev projects, but it's been probably 10 years since I've touched either with any depth.
