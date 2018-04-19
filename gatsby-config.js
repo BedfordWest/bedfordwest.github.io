@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `bedfordwest.com`,
+    siteUrl: `https://www.bedfordwest.com`,
     title: 'Bedford West, software engineer'
   },
   mapping: {
