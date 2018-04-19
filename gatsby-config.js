@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `bedfordwest.com`,
     title: 'Bedford West, software engineer'
   },
   mapping: {
@@ -57,6 +58,9 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-offline',
     'gatsby-plugin-emotion',
-    'gatsby-plugin-react-next'
+    'gatsby-plugin-react-next',
+    {
+      resolve: `gatsby-plugin-sitemap`
+    }
   ]
 };
