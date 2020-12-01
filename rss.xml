@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Bedford West]]></title><description><![CDATA[Software Engineer and Indie Game Dev Enthusiast.]]></description><link>https://bedfordwest.me</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Dec 2020 16:48:04 GMT</lastBuildDate><item><title><![CDATA[On Deciding What to Do]]></title><description><![CDATA[Follow along as I try to decide on my next development project.]]></description><link>https://bedfordwest.me/posts/deciding</link><guid isPermaLink="false">https://bedfordwest.me/posts/deciding</guid><pubDate>Wed, 18 Apr 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Now that I’ve finally got my personal site up and running, I’ve been thinking a lot about what to work on next. This is a more difficult problem to solve than it might seem, as there are multiple competing interests and needs. On one hand, I typically most enjoy working on hobby game projects. This provides a lot of room for creativity, while also allowing me to experiment with new development technologies or techniques. On the other hand, I sometimes feel like those projects aren’t teaching me as much as I could learn with some other, more specialized project. In addition, I often think I could better boost my portfolio with a more diverse project, as well.&lt;/p&gt;
+&lt;p&gt;In addition to the question about what to work on next, there’s also the question of which language and tools to use, as well. For this, I’ve been doing some research on the current popularity of various languages, and have found this Stackify article by Ben Putano handy for consolidating some of the recent popularity measures. These three charts are particularly helpful:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/27b4498ad0126ddf8733babedc78f26f/00d43/languages1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAC+ElEQVQ4y4WTO2/TUBzF8zX4AEiIAdoFhMrAyMTEwgQCoQIqHwAW9g5IsFDUBxKo9EUfQEFp87SdNHbixHESJ/ZNYsd2/LjXrzSpELDATRo1XdJaR9a98v35nP+RHYIQ2rbtOA6dzZFUmqJSsUQySVAESSUJMhKLxxIkSR2weS5JpuIJgiBT4b1Ihs7ZFgrBwYUQLJUr0TiRPmDoLBuOxKJJCu/i5AG+h/cTVIqJJKhwBL+Q3v0ZybEly/JDx86e5ymNViUPFMkosaLesE3FFwrNelmrFWUV2PWyjrTDv91/3c7vXvdPJ/gF7WDgjKDSbHFy4Yu4vCWuYm3XVrfFtS2s2tq2uI7XG7XllerHbXFDVnWlaZiG24exLXJQCyhfS9/vZ6cfMzPTzMwD+slD+ukj+hkWXkwzz3fAZkLZJ9WE1FC4vNBu40E7fWfDMjUgfxZik5mXNzOvJtIv7rKvc3pZMhqCIVUNUDPqPgyOnKOe25OBWuZFaPrICkK4Z03XuUx2iYteOZidTM3eYxd5Qz6EgQ/9YCDf9qBlYyEIm5JSKUqu3XEwbBhGWahUC/xiPn6RenM9NVdqaz3UMU18Gp0IWY5juy70GhjmJUz2YRyb44sMQX0qpi+R83fo9aZhuZYHTdexvGMhy0WDrWv7OHatXB/BCCcH9aUCc2FveaFWPIIdfBSNgZW6Jpw447YVVeUZZilHX43uFjXzyD5EhodMbxw8mhkXJgJAE8kFOjsRTuRbZq8P++PgVrNdPYkNAMgwjJBnPxTKl7+RvAq7ducMGDvjmV07GLad5ziGSM5nuKkf2ZqOOjjSmXClKI4KsxESCuxciruxUwC6M4CDsbEb+qgwhJDWbqfj0Tkif2uTlzU3wA/Gw/Kg7WFhuG3DshRReEfyU6u8oqNzYKDi2EMY/4wSqOdSxAJZur1S0nTnbFg93baqqjSTzSRjb/fZa+8z58L9j6QEhrCu641Gs6XIUkvP1jVoua4ZYDmWfwKflqUjQ4XH8H/5F/VtU1dKsAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/27b4498ad0126ddf8733babedc78f26f/8ac56/languages1.webp 240w,
+/static/27b4498ad0126ddf8733babedc78f26f/d3be9/languages1.webp 480w,
+/static/27b4498ad0126ddf8733babedc78f26f/e46b2/languages1.webp 960w,
+/static/27b4498ad0126ddf8733babedc78f26f/a5d4d/languages1.webp 1000w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/27b4498ad0126ddf8733babedc78f26f/8ff5a/languages1.png 240w,
+/static/27b4498ad0126ddf8733babedc78f26f/e85cb/languages1.png 480w,
+/static/27b4498ad0126ddf8733babedc78f26f/d9199/languages1.png 960w,
+/static/27b4498ad0126ddf8733babedc78f26f/00d43/languages1.png 1000w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/27b4498ad0126ddf8733babedc78f26f/d9199/languages1.png&quot;
+          alt=&quot;top languages 1&quot;
+          title=&quot;top languages 1&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bd59ac3af8aafc7bf856aee8ac5fc237/00d43/languages2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAPoAAAD6AG1e1JrAAADCElEQVQ4y4WTy4vbVhjF/a91U8ium65KF4GEljQwYRKYpNNCGYZS0kBmE8giWYS2SQiZtGlmppmXH3rZsmawLVseS7Jeth5X9yFLrmvRdtPPY5dZpE7hQxyEfpxzz3dViOMYIcQYK5UrR8dFQZQkqSpK1bcHh+VyheP441JZlGqcIBVLHC9Ix8UyCM8dEswKc5gQIstK8YgT+Xq9eiryMuhKSSweVqqiIolKuSTu7hwc7Jf29o4qfG3gIRJnMziKIkqp0bdl9UzrD1u6q+reqdZXDU9pm1bAunbQc6MzO9TsMEnzyfhPHKcIJTOYUWoPvEBtj1++zl69mU+6/Wv285t0IXZAZL/sjl+88k9ahuVHIYvRqBCGYVfT+Lps/7b/98ra9OZ6vvplvnonv7We31jLb9yeiZvr01tfTVfW/nj42Gq1m41u5FOC0gJktsz+qdZxdo//+mxjen0z/2Izv7aZX/56unqXcErkDpHpRKaDDBshartB66SDAkYBhqoGnsfXa+5bLr/63e/X7k0+vztZ2Rrff8YENWYTOB7GWXz+JPHI0t2uapBoBFOYVR3HLgoGe8Lo42/Zp9+zjzbIxo94MoWvccBImMDMBY1Ss+f2ey6LsxkMhZEYN3uatSOknzygVx7i/VOiD6iPic8wkOcmcwFRLd2DAbGA4whVG0rvZQV/sBVdfxazMcEZDRIajt6FwdY4cxbOEDuhrOeYvddV78NH/pMaySZkyID8T9g8c7SWDjC8KWCMHcsu1/juds249DRseIRmxE/ehWGAARgKW8Dg7DleXT3pPK8Z31QoHZEgIUGyzNk2hxexTdOUazKvCM2f5N6Wkowz7J8Xuww2Bgvn6Px6oghpfa3xQuk+Ukdpugyex4aqL848axvFmtERn8rNH7R0OTx3dvu+rlkXew7DSGnI/PaJKbhpkmA/WeYMsNG1PfjR5jBcz7baFqSKuN+2mn5KGQ6S98QGW8ccLmIDbOgGx5e4w47ejP4XhlVB8ovYvu/btj30Avzvet8z8ZDCzPU/QpsBCsANiIAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/bd59ac3af8aafc7bf856aee8ac5fc237/8ac56/languages2.webp 240w,
+/static/bd59ac3af8aafc7bf856aee8ac5fc237/d3be9/languages2.webp 480w,
+/static/bd59ac3af8aafc7bf856aee8ac5fc237/e46b2/languages2.webp 960w,
+/static/bd59ac3af8aafc7bf856aee8ac5fc237/a5d4d/languages2.webp 1000w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/bd59ac3af8aafc7bf856aee8ac5fc237/8ff5a/languages2.png 240w,
+/static/bd59ac3af8aafc7bf856aee8ac5fc237/e85cb/languages2.png 480w,
+/static/bd59ac3af8aafc7bf856aee8ac5fc237/d9199/languages2.png 960w,
+/static/bd59ac3af8aafc7bf856aee8ac5fc237/00d43/languages2.png 1000w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/bd59ac3af8aafc7bf856aee8ac5fc237/d9199/languages2.png&quot;
+          alt=&quot;top languages 2&quot;
+          title=&quot;top languages 2&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7c5653ef25a7fddf9ff10dbdc8d9a3cb/00d43/languages3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAC/ElEQVQ4y42T22sTURCH8zf6oo+CDyIICoKCgj6oVGzxUpQqFAUvFI2XtCZNakzaJqlNujaX3c2m2c1ls7dz9lx202Rjrb44Saq2otbDcJidM9/+ZoZzQu6+xRjjnGMXU0oRQvDZ9bu+73se54xBAkbIcZyf+aFhCGM4ji8lo4tLH1Iri4nk28i76GLiZfjN/EI0Mh+bf7eYyXyMgL8QleUt4nKMqIvZEAYRQki5LKVSa9ms0NDMarWpqYYiN4ub1XKpJksNpdqsVZtqXXccIH2MPBf7oXG1sHS9U6s3Gy3D3x70Brvb/Z3+593Bl2/BztdgZxd82CFI3C4l22BDGGTrW3VVU1WpkX+zmX/7ae1VIQcWzqef5tJPskMD51nuw+NMIVq0HQr6etuBv4SgYVEUC0J+ZSF348j9qWMzU8ceTB6dmT4+G7sXTzxMJh4k4zPvYY9NJ3LhdcPEQqGiyA0QD0G3joNEuZJdEm6dfD59eg7s9qnns5cinHUHwSDoD3q9fr8fBP2g1+3pDbNSVDpNm+HusGcXu7IirsaFqVPhO2de3zr9auLE3PuXG8TxXIMRk2OTEosS2G3WqOtFQbJ0vAcTl1TEUjr+6ea52MTZhceTy8Vl1Wghij1qe8zxicMZ2rNO05LLW3sw9EwI1bStzLJ49Xzq7sRqVeoEvQDOyIjcD1PE9YZVEiSzjfbDteW0ePliJhatwZ3CFqMIGI863m8wKItF5YCy3tZSq/KFa0J6reUxz7X5H2E2Uv4FD3sm1Og0U9nauUmxIts+5f+A25pZ2az+gilljDjJde3iI8UyKMccsv9L2bKsfGFDKgmRnHrlteG7PrH/BYPygbJtB0nFjXCmfj2Gt8khcEszylB2xx3CcMMQdpXK5ot1bUnhfeJDwwR5f4ONli2VapY+guFhdEyzWhLmhNaK5gXuIXBbM2Bg44mGVFXN5wtyubiimhV4jnjEjOAxCUYPDgxu2B4MZdPxAg8zOsz+ASP/B+z9hDnyOeqO498BCaUFV/eEO4QAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/7c5653ef25a7fddf9ff10dbdc8d9a3cb/8ac56/languages3.webp 240w,
+/static/7c5653ef25a7fddf9ff10dbdc8d9a3cb/d3be9/languages3.webp 480w,
+/static/7c5653ef25a7fddf9ff10dbdc8d9a3cb/e46b2/languages3.webp 960w,
+/static/7c5653ef25a7fddf9ff10dbdc8d9a3cb/a5d4d/languages3.webp 1000w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/7c5653ef25a7fddf9ff10dbdc8d9a3cb/8ff5a/languages3.png 240w,
+/static/7c5653ef25a7fddf9ff10dbdc8d9a3cb/e85cb/languages3.png 480w,
+/static/7c5653ef25a7fddf9ff10dbdc8d9a3cb/d9199/languages3.png 960w,
+/static/7c5653ef25a7fddf9ff10dbdc8d9a3cb/00d43/languages3.png 1000w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/7c5653ef25a7fddf9ff10dbdc8d9a3cb/d9199/languages3.png&quot;
+          alt=&quot;most pull requests&quot;
+          title=&quot;most pull requests&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;For me, I have the following considerations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I’m already pretty competant with Java due to my experience with libGDX and Selenium/Cucumber-JVM at work.&lt;/li&gt;
+&lt;li&gt;I’ve recently been working with JavaScript/React for my personal site and some work side projects, but still at a basic competancy.&lt;/li&gt;
+&lt;li&gt;I’ve worked with Python some at my last job, but never really got in depth with it or especially comfortable.&lt;/li&gt;
+&lt;li&gt;I worked with C and C++ in the past for learning, school, and hobby game dev projects, but it’s been probably 10 years since I’ve touched either with any depth.&lt;/li&gt;
+&lt;li&gt;I really, really have enjoyed my recent experience with Rust and learning functional programming techniques, but my knowledge of these is also still basic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Considering the above, if I want to focus on career it would seem that either continuing with JavaScript, working on a C or C++ project, or perhaps reapproaching Python would be the best idea. For personal enjoyment,  I really like the idea of getting back to Rust.&lt;/p&gt;
+&lt;p&gt;So, what to do? I’ll update here once I’ve figured something out…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[An Experiment with Arch and i3 Tiling Window Manager - Part 3]]></title><description><![CDATA[Part 3 of a technology log of installing Arch Linux and the i3 Tiling Window Manager. In this article I wrap things up and show a final build screenshot.]]></description><link>https://bedfordwest.me/posts/arch-i3-pt-3</link><guid isPermaLink="false">https://bedfordwest.me/posts/arch-i3-pt-3</guid><pubDate>Thu, 21 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;So things are going quite well with my Arch + i3 build! I was able to get sound working without much difficulty after simply installing my drivers, tweaking ALSA and then installing PulseAudio. The only tweaks I had to really do were as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The wrong device was being detected as the default sound device, so I had to tweak, if I recall, the &lt;code class=&quot;language-text&quot;&gt;\etc\modprob.d\alsa-base.conf&lt;/code&gt; settings file to manually set the correct default.&lt;/li&gt;
+&lt;li&gt;My laptop’s sound buttons did not adjust the volume at first, so I had to use xev to identify which key values were mapped to my keyboard’s sound buttons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After I did those things, my sound worked great! The only remaining initial item I needed to do to call my “base” installation complete was to customize my UI. So, I downloaded the feh image viewer, which goes well with i3, and then used it to take screenshots and set my background. I downloaded some fonts (Fira and Linux Libertine/Biolinum, in particular), grabbed a plugin for Firefox, and started tweaking some settings. I also grabbed the Xfce4 Terminal.&lt;/p&gt;
+&lt;p&gt;After tweaking a bunch of settings, here is a screenshot I took on Friday:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/517cca19052be80b04aa7c9f8943c767/e1596/arch_desktop.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 28.333333333333332%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAZ4iZmF//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERAhL/2gAIAQEAAQUCzy1KI//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAQADAAAAAAAAAAAAAAAAAAEQEZH/2gAIAQEABj8CLDJ//8QAGRABAAIDAAAAAAAAAAAAAAAAAQBhEUFx/9oACAEBAAE/IShaxCE0zfs//9oADAMBAAIAAwAAABB0D//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EGf/xAAbEAACAgMBAAAAAAAAAAAAAAABEQBBITFRkf/aAAgBAQABPxBXsRgHbo8VTBGxQBX1P//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/517cca19052be80b04aa7c9f8943c767/8ac56/arch_desktop.webp 240w,
+/static/517cca19052be80b04aa7c9f8943c767/d3be9/arch_desktop.webp 480w,
+/static/517cca19052be80b04aa7c9f8943c767/e46b2/arch_desktop.webp 960w,
+/static/517cca19052be80b04aa7c9f8943c767/f992d/arch_desktop.webp 1440w,
+/static/517cca19052be80b04aa7c9f8943c767/882b9/arch_desktop.webp 1920w,
+/static/517cca19052be80b04aa7c9f8943c767/8df42/arch_desktop.webp 2048w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/517cca19052be80b04aa7c9f8943c767/09b79/arch_desktop.jpg 240w,
+/static/517cca19052be80b04aa7c9f8943c767/7cc5e/arch_desktop.jpg 480w,
+/static/517cca19052be80b04aa7c9f8943c767/6a068/arch_desktop.jpg 960w,
+/static/517cca19052be80b04aa7c9f8943c767/644c5/arch_desktop.jpg 1440w,
+/static/517cca19052be80b04aa7c9f8943c767/0f98f/arch_desktop.jpg 1920w,
+/static/517cca19052be80b04aa7c9f8943c767/e1596/arch_desktop.jpg 2048w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/517cca19052be80b04aa7c9f8943c767/6a068/arch_desktop.jpg&quot;
+          alt=&quot;arch picture&quot;
+          title=&quot;arch picture&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I’ve since removed the scrollbars from the terminal windows and adjusted my DPI settings to more accurately fit my displays. I have to say, I’m really enjoying it so far! Everything looks great, and it seems like a very fitting environment to develop in. I’m sure I’ll have many more additional tweaks, but I’m happy with the results thus far. My next quest is to publish some dotfiles on my GitHub account and start tweaking Emacs to fit my development paradigms.&lt;/p&gt;
+&lt;p&gt;Until next time!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/arch-i3-intro&quot;&gt;Intro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/arch-i3-pt-2&quot;&gt;Part 1 - Adventures with Xorg!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/arch-i3-pt-2&quot;&gt;Part 2 - External Woes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[An Experiment with Arch and i3 Tiling Window Manager - Part 2]]></title><description><![CDATA[Part 2 of a technology log of installing Arch Linux and the i3 Tiling Window Manager. In this article I work through some difficulties with proprietary drivers and display management.]]></description><link>https://bedfordwest.me/posts/arch-i3-pt-2</link><guid isPermaLink="false">https://bedfordwest.me/posts/arch-i3-pt-2</guid><pubDate>Tue, 19 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;The joy of learning continues as I move forward with my attempt at setting up a functional Arch + i3 work environment on my laptop.&lt;/p&gt;
+&lt;p&gt;Progress:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arch installed&lt;/li&gt;
+&lt;li&gt;i3 installed&lt;/li&gt;
+&lt;li&gt;i3 boots up and displays separate workspaces on each display when connected to an external monitor&lt;/li&gt;
+&lt;li&gt;Wi-Fi working with NetworkManager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Known Problems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No sound&lt;/li&gt;
+&lt;li&gt;Ugly interface&lt;/li&gt;
+&lt;li&gt;No backup/snapshot system installed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alright, so what has happened since my last post? Well, despite my joy at having gotten i3 and Xorg to work correctly on my installation, I soon realized that I was not in the clear. When I went to boot up my laptop for the first time after my last post, I realized my external monitor was no longer displaying anything. In fact, it turns out the system wasn’t registering the monitor as connected at all. I spent a while trying to adjust Xorg or i3 settings, but nothing seemed to work. I also tried various video driver tweaks, which also did nothing to resolve the issue.&lt;/p&gt;
+&lt;p&gt;After a while, I discovered Arch has a wiki page for my particular laptop model. This is one reason why Open Source (and Arch Linux, in particular) are so amazing - the community support can often be fantastic. Once I found that page, I saw the notes at the bottom concerning things that don’t work or need adjustment for my model. This led me to me to discover Linux Dynamic Kernel Module Support. It turns out that the proprietary Nvidia drivers my laptop model needs are not compatible with the default Linux DKMS. I tried to work around this, but it is actually the workaround (adding nomodeset to my boot parameters) that caused my external monitor to no longer be recognized in the first place.&lt;/p&gt;
+&lt;p&gt;It turns out a user has made and maintained a version of the DKMS that works with Nvidia in the Arch User Repository. This isn’t ideal, as it adds a level of risk from both a security standpoint and also from the standpoint of system stability. Given the popularity of the package, frequency of update, and necessity on my end, however, I deemed these risks to be worth taking.&lt;/p&gt;
+&lt;p&gt;After installing the &lt;code class=&quot;language-text&quot;&gt;nvidia-dkms&lt;/code&gt; package from the AUR, my external monitor started working again! Unfortunately, this was not the end of my monitor troubles. While the monitor was being detected and was displaying output, it was always an exact mirror of my laptop primary display. This is &lt;em&gt;not&lt;/em&gt; the intended behavior per the i3 documentation, so I realized something was wrong. The solution to this problem required an increase to my knowledge of xrandr.&lt;/p&gt;
+&lt;p&gt;While I did not discover the root cause of my problem with the mirrored displays, I did find an acceptable solution. The xrandr utility is packaged with Xorg to help identify and configure displays. It turns out executing a particular &lt;code class=&quot;language-text&quot;&gt;xrandr&lt;/code&gt; command would set the output of my external monitor to my desired configuration. This command was simply &lt;code class=&quot;language-text&quot;&gt;xrandr --output eDP1&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;--auto --left-of VGA1&lt;/code&gt;, where &lt;code class=&quot;language-text&quot;&gt;eDP1&lt;/code&gt; is my laptop primary display and &lt;code class=&quot;language-text&quot;&gt;VGA1&lt;/code&gt; is my external monitor. In order for this setting to work with i3, however, I needed to add the command as an executable statement in my &lt;code class=&quot;language-text&quot;&gt;~/.i3/config&lt;/code&gt; file. The syntax for this was simply &lt;code class=&quot;language-text&quot;&gt;exec --no-startup-id xrandr&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;--output eDP1 --auto --left-of VGA1&lt;/code&gt;. Once I did this, my external display now displayed output independently from my laptop primary display and defaulted to a separate workspace, as expected!&lt;/p&gt;
+&lt;p&gt;Despite hearing so many terrible things about setting up Wi-Fi on Linux and, despite having a wireless adaptor known to have conflicts with Linux, I actually had a fairly easy time getting my Wi-Fi to work. I simply needed to identify the correct driver &amp;#x26; firmware I needed to install (as the adapter was not working correctly out of the box), install that from the AUR, and then install and start NetworkManager and the NetworkManager Applet. The only remaining step was to add the applet to my i3 config file as an executable command. I also needed to install the Gnome Keychain in order to authenticate with my wireless network. After doing this, the NetworkManager starts correctly when I load i3 and automatically connects to my network. Easy!&lt;/p&gt;
+&lt;p&gt;The last thing I did was add startx to my &lt;code class=&quot;language-text&quot;&gt;~/.bash_profile&lt;/code&gt; so that i3 starts up as soon as I log in.&lt;/p&gt;
+&lt;p&gt;So, I think I’m getting there! This has definitely been extremely rewarding, and I think the toughest parts of my installation are probably behind me. I still need to address the “known problems” from above, but I’m hoping those will be relatively painless. After that, I’m free to play around with customizing my UI and workspace!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/arch-i3-intro&quot;&gt;Intro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/arch-i3-pt-2&quot;&gt;Part 1 - Adventures with Xorg!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/arch-i3-pt-3&quot;&gt;Part 3 - Looking Good&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[An Experiment with Arch and i3 Tiling Window Manager - Part 1]]></title><description><![CDATA[Part 1 of a technology log of installing Arch Linux and the i3 Tiling Window Manager. In this article I describe some roadblocks with installing Xorg packages for the tiling manager.]]></description><link>https://bedfordwest.me/posts/arch-i3-pt-1</link><guid isPermaLink="false">https://bedfordwest.me/posts/arch-i3-pt-1</guid><pubDate>Mon, 18 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Hello again, everyone!&lt;/p&gt;
+&lt;p&gt;So, when I last left you, I was beginning my journey with attempting to install Arch Linux and the i3 Tiling Window Manager for my personal laptop. As expected, things did not go smoothly, initially. One thing I enjoy about trying something like Arch out, however, is that you really get your hands dirty and have to work to achieve your goals.&lt;/p&gt;
+&lt;p&gt;The first time I attempted this installation a little over a year ago, things went smoothly until I needed to install my video drivers and attempt to have Xorg display some basic output to my screen. You see, the Dell Precision M4800 laptop I have actually comes with two video adapters (one integrated Intel and one high-performance Nvidia) which utilize a technology called Nvidia Optimus. The thing is, Nvidia is notorious for having proprietary driver conflicts with Linux, and this technology only adds to that conundrum.&lt;/p&gt;
+&lt;p&gt;It turns out this most recent install of Arch met with much the same fate. I was able to get a basic installation going just fine by following the Arch Beginner’s Guide. The problem came immediately after finishing this guide, when I tried to follow the General recommendations section to begin doing things like install a Windows Manager.&lt;/p&gt;
+&lt;p&gt;Here’s the thing: based on the way the instructions were written, I assumed I just needed to install my video drivers, then Xorg, then Bumblebee (an open source implementation of Optimus) and I would be on my way. The problem is that, upon doing this, I was receiving all sorts of fun errors when attempting to load Xorg or run &lt;code class=&quot;language-text&quot;&gt;optirun glxgears -info&lt;/code&gt;. These errors were generally of the following fashion: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;systemd-logind: failed to get session&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;PID XXX does not belong to any known session&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;could not detect any displays&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;could not detect any devices&lt;/code&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The problem with these errors is that they are actually fairly common, which means they arise from a number of possible conditions. This led me to follow a number of support threads and sections of the Arch Wiki to no avail.&lt;/p&gt;
+&lt;p&gt;After tinkering around with things for two full nights and stumbling upon various threads, I finally solved my problem. It turns out, I think, that my problem was as simple as not understanding the components of Xorg and what was actually necessary for it to draw to the screen. For starters, when I installed the Xorg packages, I didn’t realize that &lt;code class=&quot;language-text&quot;&gt;pacman -S xorg&lt;/code&gt; would not install &lt;em&gt;all&lt;/em&gt; of the necessary dependencies when I select “all” for the packages to install. I actually had to manually install &lt;code class=&quot;language-text&quot;&gt;xorg-server&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;xorg-utils&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;xorg-init&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;xorg-server-utils&lt;/code&gt;, and &lt;code class=&quot;language-text&quot;&gt;xorg-term&lt;/code&gt;. In addition, I didn’t realize that I had to copy over an &lt;code class=&quot;language-text&quot;&gt;.xinitrc&lt;/code&gt; file to my home directory and then include an &lt;code class=&quot;language-text&quot;&gt;exec &amp;lt;display manager&amp;gt;&lt;/code&gt; command in there somewhere. So, once I learned this and downloaded i3, I was able to point xinitrc to i3 and start up i3 just fine with the startx command.&lt;/p&gt;
+&lt;p&gt;So, I’m off! It’s been a challenge so far, but I’ve already learned a lot. In particular, I’ve learned quite a bit about the newly integrated systemd, how Xorg works, and also a bit about editing Kernel configurations in the bootloader and working with basic networking.&lt;/p&gt;
+&lt;p&gt;I can’t wait to see where this experiment takes me next!&lt;/p&gt;
+&lt;p&gt;Oh, btw - I know these are heavy on words and light on images at the moment. Once I get to a point where I can take screenshots on the new box, I’ll work on getting some images in these posts!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/arch-i3-intro&quot;&gt;Intro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/arch-i3-pt-2&quot;&gt;Part 2 - External Woes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/arch-i3-pt-3&quot;&gt;Part 3 - Looking Good&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[An Experiment with Arch and i3 Tiling Window Manager - Intro]]></title><description><![CDATA[Introduction article to a technology log of installing Arch Linux and the i3 Tiling Window Manager.]]></description><link>https://bedfordwest.me/posts/arch-i3-intro</link><guid isPermaLink="false">https://bedfordwest.me/posts/arch-i3-intro</guid><pubDate>Fri, 15 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;I’ve needed to do something with my Dell Precision M4800 laptop for a while now. I had previously attempted to install Arch Linux on it, but ran into trouble with getting Bumblebee installed in order to properly handle the dual video cards in the laptop.&lt;/p&gt;
+&lt;p&gt;That was about a year ago, and I’m ready to jump back into it and try again. I’ve been using Linux and Emacs a lot at work, and now I really want to work out of an environment where I can use the keyboard much more and keep the OS out of my way when I want to work. For that reason, I plan to try Arch again and combine it with the i3 Tiling Window Manager. I plan to do something similar to my Desktop at some point, but I figured it would be nice to have something more mobile in my laptop to carry my work with me while the summer remains.&lt;/p&gt;
+&lt;p&gt;So, here goes nothing! This post will service as both the introduction and sort of a “Table of Contents” of my, hopefully, future posts on the subject.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/arch-i3-pt-1&quot;&gt;Part 1 - Adventures with Xorg!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/arch-i3-pt-2&quot;&gt;Part 2 - External Woes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/arch-i3-pt-3&quot;&gt;Part 3 - Looking Good&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[On Decoupling]]></title><description><![CDATA[When implementing common code, the practice of decoupling becomes invaluable to maintainable architecture.]]></description><link>https://bedfordwest.me/posts/on-decoupling</link><guid isPermaLink="false">https://bedfordwest.me/posts/on-decoupling</guid><pubDate>Sat, 28 Mar 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;After working in the software industry for a while, I’ve realized the importance of decoupling when designing code. What is decoupling in the context of development? Essentially, it’s the practice of removing interactivity between pieces of code which can or should operate independently. In object oriented programming, for example, this might mean separating out blocks of functionality within a large class into several smaller classes, each operating independently from one another.&lt;/p&gt;
+&lt;p&gt;I won’t rehash the numerous things that have been said about why this is important, but the short summary is the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Decoupled code is less likely to break when something unrelated is modified.&lt;/li&gt;
+&lt;li&gt;It is often easier to read and understand decoupled code.&lt;/li&gt;
+&lt;li&gt;Decoupling code can facilitate Test-Driven Development and unit testing.&lt;/li&gt;
+&lt;li&gt;It is usually easier to maintain and troubleshoot decoupled code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A few months ago, I spent some time learning a Java-based game development framework called libGDX. After working on a hobby game project for a few weeks, I became distracted and set aside the effort for a few months. Tonight, I picked the project back up and looked at it with a fresh set of eyes. What did I find? There is ample opportunity for some decoupling of the code I have already written.&lt;/p&gt;
+&lt;p&gt;The first thing I wanted to do was ask myself the following question: “If I were to want to publish independent systems of this game as reusable tool sets to a public repository, would I be able to?” In order to answer that question, I first needed to establish which systems I would want to do that with, in the first place. After some thought, I decided the only system I can initially think of which fits this criteria is the random map generation tool I developed to help procedurally generate my stages for the game.&lt;/p&gt;
+&lt;p&gt;It works like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Provide the map generator with some set of parameters to determine size, spaciousness, and general shape.&lt;/li&gt;
+&lt;li&gt;Iterate through an algorithm a number of times to refine the map to the desired shape.&lt;/li&gt;
+&lt;li&gt;Clean up the produced map to ensure it fits the parameters necessary for the game.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The idea is simple enough, and it’s something I could see being useful for other projects in the future. So, I should find a way to decouple it such that I can publish it to an independent repository and enable it to interact via some sort of universal input/output mechanism, right? Let’s see how it looks.&lt;/p&gt;
+&lt;p&gt;Right, so starting at the top…&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;packagecom.gletho.levels;&quot;&gt;&lt;pre class=&quot;language-packagecom.gletho.levels;&quot;&gt;&lt;code class=&quot;language-packagecom.gletho.levels;&quot;&gt;/**
+* Created by Bedford on 3/28/2015.
+*/
+
+import com.badlogic.gdx.Gdx;
+import com.gletho.util.Constants;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class MapGenerator
+{&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Oh boy. So, this isn’t a great start. What’s the problem? Well, first of all, the very package name this class belongs to indicates a problem. com.gletho.levels is a clear indication that this class is meant to exist within a package directly tied to the level generation of my game, Gletho. If this tool is supposed to exist independently of the game, that’s clearly not going to work.&lt;/p&gt;
+&lt;p&gt;Next, we see that this class imports functionality from both the game and the Gdx libraries. This is clearly a problem, since neither would work if this were published as an independent toolset.&lt;/p&gt;
+&lt;p&gt;Great. Now that we’ve identified those problems, let’s move on.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;intbirthlimit = 4;&quot;&gt;&lt;pre class=&quot;language-intbirthlimit = 4;&quot;&gt;&lt;code class=&quot;language-intbirthlimit = 4;&quot;&gt;int deathLimit = 3;
+int numberOfSteps = 6;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Alright, here’s another problem. These are parameters used to indicate the shape of the map, and they are baked directly into the class. Ideally, this tool would allow the user to specify these parameters at runtime or upon instantiation. These should be initialized via parameters in a constructor! Ok, what’s next?&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;//the only way for another class to get&quot;&gt;&lt;pre class=&quot;language-//the only way for another class to get&quot;&gt;&lt;code class=&quot;language-//the only way for another class to get&quot;&gt;//   a map should be through this method
+public List&amp;lt;LevelTile&amp;gt; getMap(long seed) {
+    generateMap(seed);
+    return levelTiles;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here is the method whereby I intended for the game to obtain generated maps. That’s good, in principle, but why is the output a List of LevelTile objects? LevelTile is a class defined within my game. If this is going to be externalized, I need to find a more generic output format and design a utility class within my game to convert it to something usable. This utility class could even be decoupled to be reusable for any libGDX project, if so desired.&lt;/p&gt;
+&lt;p&gt;I could continue, but I think this gets the point across, and I need to actually start working on resolving these issues! So, let this be a lesson (both to the reader and to my future self): always think about reusability and decoupling when designing your code! It may save quite a bit of time in future endeavors.&lt;/p&gt;</content:encoded></item></channel></rss>
