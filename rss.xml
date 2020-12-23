@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Bedford West]]></title><description><![CDATA[Software Engineer and Indie Game Dev Enthusiast.]]></description><link>https://bedfordwest.me</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 23 Dec 2020 03:34:48 GMT</lastBuildDate><item><title><![CDATA[An Advent Journey in Javascript and Vue.js]]></title><description><![CDATA[Share my experience solving AdventofCode 2020 problems in Javascript with a Vue.js front end.]]></description><link>https://bedfordwest.me/posts/advent2020</link><guid isPermaLink="false">https://bedfordwest.me/posts/advent2020</guid><pubDate>Tue, 22 Dec 2020 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;This month I’ve been hard at work participating in &lt;a href=&quot;https://adventofcode.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Advent of Code 2020&lt;/a&gt;. We’ve recently switched over to trying &lt;a href=&quot;https://www.cypress.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Cypress&lt;/a&gt; for our automation tool of choice at work, and the front end developers have recently switched over to using &lt;a href=&quot;https://vuejs.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Vue.js&lt;/a&gt; to revitalize the front end development stack.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Bedford West]]></title><description><![CDATA[Software Engineer and Indie Game Dev Enthusiast.]]></description><link>https://bedfordwest.me</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 23 Dec 2020 03:39:32 GMT</lastBuildDate><item><title><![CDATA[An Advent Journey in Javascript and Vue.js]]></title><description><![CDATA[Share my experience solving AdventofCode 2020 problems in Javascript with a Vue.js front end.]]></description><link>https://bedfordwest.me/posts/advent2020</link><guid isPermaLink="false">https://bedfordwest.me/posts/advent2020</guid><pubDate>Tue, 22 Dec 2020 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;This month I’ve been hard at work participating in &lt;a href=&quot;https://adventofcode.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Advent of Code 2020&lt;/a&gt;. We’ve recently switched over to trying &lt;a href=&quot;https://www.cypress.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Cypress&lt;/a&gt; for our automation tool of choice at work, and the front end developers have recently switched over to using &lt;a href=&quot;https://vuejs.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Vue.js&lt;/a&gt; to revitalize the front end development stack.&lt;/p&gt;
 &lt;p&gt;I wanted to refresh my Javascript skill set and become more familiar with Vue in order to position myself to help with these efforts. So, I decided it would be beneficial to participate in Advent of Code using Javascript as my language and by building out a front end in Vue to display and run my solution scripts.&lt;/p&gt;
 &lt;p&gt;As of the time of this writing, I’ve solved through day 18 and only looked for help on day 13 where I got stuck thinking about cycles and remainders. Here are a couple of screenshots of the current state of the front end I built:&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -40,8 +40,8 @@
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           src=&quot;/static/43b865706c0610db5021781d2f21b59e/d9199/advent1.png&quot;
-          alt=&quot;the calendar&quot;
-          title=&quot;the calendar&quot;
+          alt=&quot;the day layout&quot;
+          title=&quot;the day layout&quot;
           loading=&quot;lazy&quot;
           style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         /&gt;
@@ -83,8 +83,8 @@
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           src=&quot;/static/ca007234fa65a28aad49ec3319cdac79/d9199/advent2.png&quot;
-          alt=&quot;the day layout&quot;
-          title=&quot;the day layout&quot;
+          alt=&quot;the calendar&quot;
+          title=&quot;the calendar&quot;
           loading=&quot;lazy&quot;
           style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         /&gt;
