@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Bedford West]]></title><description><![CDATA[Software Engineer and Indie Game Dev Enthusiast.]]></description><link>https://bedfordwest.me</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Dec 2020 17:42:29 GMT</lastBuildDate><item><title><![CDATA[On Deciding What to Do]]></title><description><![CDATA[Follow along as I try to decide on my next development project.]]></description><link>https://bedfordwest.me/posts/deciding</link><guid isPermaLink="false">https://bedfordwest.me/posts/deciding</guid><pubDate>Wed, 18 Apr 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Now that I’ve finally got my personal site up and running, I’ve been thinking a lot about what to work on next. This is a more difficult problem to solve than it might seem, as there are multiple competing interests and needs. On one hand, I typically most enjoy working on hobby game projects. This provides a lot of room for creativity, while also allowing me to experiment with new development technologies or techniques. On the other hand, I sometimes feel like those projects aren’t teaching me as much as I could learn with some other, more specialized project. In addition, I often think I could better boost my portfolio with a more diverse project, as well.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Bedford West]]></title><description><![CDATA[Software Engineer and Indie Game Dev Enthusiast.]]></description><link>https://bedfordwest.me</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 23 Dec 2020 03:26:47 GMT</lastBuildDate><item><title><![CDATA[An Advent Journey in Javascript and Vue.js]]></title><description><![CDATA[Share my experience solving AdventofCode 2020 problems in Javascript with a Vue.js front end.]]></description><link>https://bedfordwest.me/posts/advent2020</link><guid isPermaLink="false">https://bedfordwest.me/posts/advent2020</guid><pubDate>Tue, 22 Dec 2020 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;This month I’ve been hard at work participating in &lt;img src=&quot;https://adventofcode.com/&quot; alt=&quot;Advent of Code 2020&quot;&gt;. We’ve recently switched over to trying &lt;img src=&quot;https://www.cypress.io/&quot; alt=&quot;Cypress&quot;&gt; for our automation tool of choice at work, and the front end developers have recently switched over to using &lt;img src=&quot;https://vuejs.org/&quot; alt=&quot;Vue.js&quot;&gt; to revitalize the front end development stack.&lt;/p&gt;
+&lt;p&gt;I wanted to refresh my Javascript skill set and become more familiar with Vue in order to position myself to help with these efforts. So, I decided it would be beneficial to participate in Advent of Code using Javascript as my language and by building out a front end in Vue to display and run my solution scripts.&lt;/p&gt;
+&lt;p&gt;As of the time of this writing, I’ve solved through day 18 and only looked for help on day 13 where I got stuck thinking about cycles and remainders. Here are a couple of screenshots of the current state of the front end I built:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/43b865706c0610db5021781d2f21b59e/d9ed5/advent1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.58333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACEElEQVQoz1WSW2/aQBCF/ZC0DZBQmpBCMARsg8EGzN1cEsAxpKgXtQlS1b5WSfoX+lC1UvvDT88sGJWHox3v7nx7ZsaaPQ1gLd/A+fIVw4dH+N8eMHr6Dv/xCXa4RHUeov/+I1qrd7BnN3DDWzjUeP0Z/qc1qsECtZutGGsvqw0kKy6yXo/JSx4QHtyiOg2Rrrch5/muj1y7j1ipgmOrptZcx0eGOXHTxgnzT8qOkqb3RiiNZzCvApzzQrrZwVmjjVPCMq0+kgSeOh6yjGNmFcdMEj0rmDjMG3h+aak4kmZdB6gv37IMOgtXqMwWG6fikuvl8JpuBrhoDxQoadeVI4ljho0XxfIOLtJcQrzVB5iTOSosU2RvodVgCXexQtGf4HWzqwACitOpxEcsXYCRFNBiqfZ8AWMyU6DSeIoM3ZwTkOsOVRsEprOP4ixVa6q+SiwQKflAL+2kpdifCzY43ejsLspLchgzNg5eESJlHxkygE0PE+UaEjIg7u0BEzyUV6MXpQyRXBTgIftz5nqc8gBxAjY9JJQSoNzdG4pMUiQlKjAT4iZf305TXKXoXKYscbQfuYuqOdiuWoENr8xC1cc8y8oxUacbnf+dzu+s10WNf4LH4RjDK5TZa1lLVHEwRr43ROE/ac7f33D+/IL78wfcfh+W56Hcau1ru1ehrEYD7nCE/nqNzt0duvf3O8n3P0+RSAdSCq9nAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/43b865706c0610db5021781d2f21b59e/8ac56/advent1.webp 240w,
+/static/43b865706c0610db5021781d2f21b59e/d3be9/advent1.webp 480w,
+/static/43b865706c0610db5021781d2f21b59e/e46b2/advent1.webp 960w,
+/static/43b865706c0610db5021781d2f21b59e/f992d/advent1.webp 1440w,
+/static/43b865706c0610db5021781d2f21b59e/882b9/advent1.webp 1920w,
+/static/43b865706c0610db5021781d2f21b59e/d3d72/advent1.webp 2880w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/43b865706c0610db5021781d2f21b59e/8ff5a/advent1.png 240w,
+/static/43b865706c0610db5021781d2f21b59e/e85cb/advent1.png 480w,
+/static/43b865706c0610db5021781d2f21b59e/d9199/advent1.png 960w,
+/static/43b865706c0610db5021781d2f21b59e/07a9c/advent1.png 1440w,
+/static/43b865706c0610db5021781d2f21b59e/29114/advent1.png 1920w,
+/static/43b865706c0610db5021781d2f21b59e/d9ed5/advent1.png 2880w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/43b865706c0610db5021781d2f21b59e/d9199/advent1.png&quot;
+          alt=&quot;the calendar&quot;
+          title=&quot;the calendar&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ca007234fa65a28aad49ec3319cdac79/7a4b2/advent2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 88.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAADMUlEQVQ4y5WU205TQRSG92OwS1ul3T3sI76HEgxgonKM8UYoFRBKQc4IikjwrJxaKKACJorg8/3+a40WTfTCi0nWNzN7OvPNP7WaW1tx5fp101j/nVvrXG//YKt5sB+52jayBzvIL80hul9AjnX2sIL83BSikfvIsc4eVOBOlRGVHuiYcnkU4eQ4uarfu6URWOHEGBprW4gdbKPp+SqCh2XEapuI7W8htbqMYPYh7L0NxD5UkF6eh/9oFvbue2Vnfhrek0U0VN6Rq3C4ASssjyFx+gnxs2M0vVnnguOInx4h/u0IqfUVXVD57ATplUdccA6Nwt8/I8PaY1/jV35/foLMwgys6PYteMNFuGze3TuIOm9r7fKo/p0+RF2dWrsjRfh9PQh7ug1zjt/bjZB9de7posPCPeSqG8jubSK/OIOoOIDs7qbhmUlEnCh1dm8L7mQJ4diI1tLn0mc4UTLMb9yxYXFYQiN92dV3dPgUwdSEcXi4g9TaYwT0Ig5tzkk/XtAji0Obzp3FWbg8ZkOVTnkpDjdgheOjdHiknpperSHgLhK/nIlDTjIOj+HwAnwuoizOeEEeL0o4ISyXEt26CY/H9BgXdSZOhYsFdSZOZUzH6Szq7jTM8YB1yD7DAwjo24o4kGGmMrz23PICoqEiMsyVMo8TjQ5rLS0/PQlJRebjLhyyS10hFTlk+SbP01oiOcYc2fSmDtlp/2KJCWNkV96qszSD71FBw0925qeMw523mmPjkAsmv3xE4tsxUi+f6YIJ5kr52TIXLBsWhxJseoqfCkvuGGz+SPzneIaZVYf+wD34jI/f1wvlguGgt0ed+oV+w91dmss6s47YV2f6tqKhQTif9uAc7yO7ssS3OwTnqIa0MH89ZNZkTDjH3cnbTZ8YzvNty0syXEOeCTEOt9+ot8urSwgo3d5+rVlMPV2Cz0m2jO9uIM3gq0NhZtPhYi6P3bD1Wj070xNmwUvMUZJOUi+MwyT9JflW02tP9M9C+fwzHAk2dym+ZNw4nFffSXE4R4dhWxs8yZ64utGBP7iD3H7BQUc7uf2CWYcdv3Mb33JLC5qvXjXtGuvfueX/+QfafwEvI51xogAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/ca007234fa65a28aad49ec3319cdac79/8ac56/advent2.webp 240w,
+/static/ca007234fa65a28aad49ec3319cdac79/d3be9/advent2.webp 480w,
+/static/ca007234fa65a28aad49ec3319cdac79/e46b2/advent2.webp 960w,
+/static/ca007234fa65a28aad49ec3319cdac79/9eb34/advent2.webp 1240w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/ca007234fa65a28aad49ec3319cdac79/8ff5a/advent2.png 240w,
+/static/ca007234fa65a28aad49ec3319cdac79/e85cb/advent2.png 480w,
+/static/ca007234fa65a28aad49ec3319cdac79/d9199/advent2.png 960w,
+/static/ca007234fa65a28aad49ec3319cdac79/7a4b2/advent2.png 1240w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/ca007234fa65a28aad49ec3319cdac79/d9199/advent2.png&quot;
+          alt=&quot;the day layout&quot;
+          title=&quot;the day layout&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This has been a fun journey, and I’ve learned/remembered a few things along the way:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The various forms of looping through an iterable in Javascript behave in pretty subtly but importantly different ways. For example, you can’t return early from a &lt;code class=&quot;language-text&quot;&gt;forEach&lt;/code&gt; loop and if you use an &lt;code class=&quot;language-text&quot;&gt;Array.length&lt;/code&gt; in your &lt;code class=&quot;language-text&quot;&gt;for&lt;/code&gt; loop paramaters you can easily catch yourself in an infinite loop.&lt;/li&gt;
+&lt;li&gt;Typecasting can be pretty easy to mess up. I constantly caught myself forgetting to &lt;code class=&quot;language-text&quot;&gt;parseInt&lt;/code&gt; on a string and only finding out pretty far down the line in nefarious ways.&lt;/li&gt;
+&lt;li&gt;Logging to the console doesn’t always produce the desired results. Objects often display their final state when expanded rather than the state when they were logged, for example.&lt;/li&gt;
+&lt;li&gt;It’s particularly important to choose the proper scope for variables and objects in Javascript. Using let, var, and const in the proper places can go a long way toward preventing unexpected issues.&lt;/li&gt;
+&lt;li&gt;I actually introduced a promise in a meaningful way which allowed me to alter the state of a Vue component and wait until my script solution completes. This felt nice after struggling so much with promises in the past.&lt;/li&gt;
+&lt;li&gt;Vue is a pretty nice and easy to use framework, even for smaller hobby/one-off apps like this one. I really like how it separates the concerns between markup, script, data, and state.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I need to start balancing my time with studying for the Certified Kubernetes Application Developer (CKAD) and AWS certifications I purchased vouchers for to take next year, so my progress may slow a bit over the holiday. That said, I fully plan to finish the entire 25 days in the next few weeks. Stay tuned!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[On Deciding What to Do]]></title><description><![CDATA[Follow along as I try to decide on my next development project.]]></description><link>https://bedfordwest.me/posts/deciding</link><guid isPermaLink="false">https://bedfordwest.me/posts/deciding</guid><pubDate>Wed, 18 Apr 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Now that I’ve finally got my personal site up and running, I’ve been thinking a lot about what to work on next. This is a more difficult problem to solve than it might seem, as there are multiple competing interests and needs. On one hand, I typically most enjoy working on hobby game projects. This provides a lot of room for creativity, while also allowing me to experiment with new development technologies or techniques. On the other hand, I sometimes feel like those projects aren’t teaching me as much as I could learn with some other, more specialized project. In addition, I often think I could better boost my portfolio with a more diverse project, as well.&lt;/p&gt;
 &lt;p&gt;In addition to the question about what to work on next, there’s also the question of which language and tools to use, as well. For this, I’ve been doing some research on the current popularity of various languages, and have found this Stackify article by Ben Putano handy for consolidating some of the recent popularity measures. These three charts are particularly helpful:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
