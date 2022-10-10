@@ -1,0 +1,37 @@
+{
+  "name": "bedfordwest.github.io",
+  "version": "0.1.0",
+  "description": "Bedford's Personal Portfolio & Blog",
+  "scripts": {
+    "uglify": "uglifyjs ./src/js/main.js --compress --mangle -o ./static/js/main.js && uglifyjs ./src/js/page.js --compress --mangle -o ./static/js/page.js && uglifyjs ./src/js/search.js --compress --mangle -o ./static/js/search.js && uglifyjs ./src/js/lang.js --compress --mangle -o ./static/js/lang.js",
+    "watch": "NODE_ENV=development postcss ./src/css/main.css -o ./static/css/main.css -w --verbose",
+    "dev": "npm run uglify && NODE_ENV=development postcss ./src/css/main.css -o ./static/css/main.css --verbose",
+    "prod": "npm run uglify && NODE_ENV=production postcss ./src/css/main.css -o ./static/css/main.css --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bedfordwest/bedfordwest.github.io.git"
+  },
+  "keywords": [
+    "zola",
+    "ssg",
+    "theme",
+    "tailwindcss",
+    "tailwind",
+    "tchartron"
+  ],
+  "author": "Bedford West",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bedfordwest/bedfordwest.github.io.git/issues"
+  },
+  "homepage": "https://github.com/bedfordwest/bedfordwest.github.io.git#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "cssnano": "^5.0.9",
+    "postcss": "^8.4.17",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^3.1.8",
+    "uglify-js": "^3.14.3"
+  }
+}

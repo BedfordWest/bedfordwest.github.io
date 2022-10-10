@@ -74,7 +74,12 @@ extra_syntaxes = []
 
 # The theme to use for code highlighting.
 # See below for list of allowed values.
-highlight_theme = "base16-ocean-dark"
+highlight_theme = "css"
+
+highlight_themes_css = [
+  { theme = "charcoal", filename = "syntax-dark.css" },
+  { theme = "cheerfully-light", filename = "syntax-light.css" },
+]
 
 # When set to "true", emoji aliases translated to their corresponding
 # Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
@@ -160,6 +165,10 @@ taxonomies = [
 # author value will be available using {{ config.extra.author }} in templates
 #
 [extra]
+# Overrides from the theme
+enable_adsense = false
+enable_multilingue = false
+
 [extra.lang]
 items = [
     { lang = "en", links = [
@@ -177,7 +186,7 @@ title = "Bedford West"
 items = [
     { lang = "en", links = [
         { url = "/", name = "Home" },
-        { url = "/categories", name = "Categories" },
+        { url = "/blog", name = "Blog" },
         { url = "/tags", name = "Tags" }
     ] },
     { lang = "fr", links = [
@@ -191,7 +200,7 @@ items = [
 items = [
     { lang = "en", links = [
         { url = "/markdown", name = "Markdown" },
-        { url = "/blog", name = "Blog" }
+        { url = "/categories", name = "Categories" }
     ] },
     { lang = "fr", links = [
         { url = "/fr/markdown", name = "Markdown" },
