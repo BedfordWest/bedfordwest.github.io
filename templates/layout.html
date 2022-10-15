@@ -6,7 +6,7 @@
 
       <!-- FAVICON -->
       {% if config.extra.favicon.webmanifest %}
-      <link href="{{ config.extra.favicon.manifest }}"" rel="manifest" />
+      <link href="{{ config.extra.favicon.manifest }}" rel="manifest" />
       {% endif %}
       {% if config.extra.favicon.favicon_16x16 %}
       <link href='{{ config.extra.favicon.favicon_16x16 }}' rel="icon" sizes="16x16" type="image/png" />
@@ -27,7 +27,7 @@
       <link href='{{ config.extra.favicon.apple_touch_icon }}' rel="apple-touch-icon" sizes="180x180" />
       {% endif %}
 
-      <link href="{{ "/css/main.css" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}" rel="stylesheet">
+      <link href="/css/main.css?hash={{ get_file_hash(path='/static/css/main.css', sha_type=256) }}" rel="stylesheet">
       <link id="syntax_highlight" href="#" rel="stylesheet">
 
       <title>
