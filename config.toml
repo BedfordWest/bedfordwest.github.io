@@ -221,6 +221,7 @@ avatar_alt = "it's me!"
 
 [extra.social]
 github = "https://github.com/bedfordwest"
+gitlab = ""
 twitter = "https://twitter.com/gamedevbedford"
 linkedin = "https://www.linkedin.com/in/bedfordwest/"
 email = "bedfordwest@gmail.com"
