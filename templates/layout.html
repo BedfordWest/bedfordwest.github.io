@@ -27,7 +27,7 @@
       <link href='{{ config.extra.favicon.apple_touch_icon }}' rel="apple-touch-icon" sizes="180x180" />
       {% endif %}
 
-      <link href="/css/main.css?hash={{ get_file_hash(path='/static/css/main.css', sha_type=256) }}" rel="stylesheet">
+      <link href="/css/main.css?hash={{ get_hash(path='/static/css/main.css', sha_type=256) }}" rel="stylesheet">
       <link id="syntax_highlight" href="#" rel="stylesheet">
 
       <title>
