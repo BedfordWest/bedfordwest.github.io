@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Bedford West - puzzles</title>
+    <subtitle>Musings on tech, empathy, and what it means to be human</subtitle>
+    <link href="https://bedfordwest.me/tags/puzzles/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://bedfordwest.me"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2020-12-22T00:00:00+00:00</updated>
+    <id>https://bedfordwest.me/tags/puzzles/atom.xml</id>
+    <entry xml:lang="en">
+        <title>An Advent Journey in Javascript and Vue.js</title>
+        <published>2020-12-22T00:00:00+00:00</published>
+        <updated>2020-12-22T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bedfordwest.me/blog/advent2020/" type="text/html"/>
+        <id>https://bedfordwest.me/blog/advent2020/</id>
+        
+        <content type="html">&lt;p&gt;This month I’ve been hard at work participating in &lt;a href=&quot;https:&#x2F;&#x2F;adventofcode.com&#x2F;2020&quot;&gt;Advent of Code 2020&lt;&#x2F;a&gt;. We’ve recently switched over to trying &lt;a href=&quot;https:&#x2F;&#x2F;www.cypress.io&#x2F;&quot;&gt;Cypress&lt;&#x2F;a&gt; for our automation tool of choice at work, and the front end developers have recently switched over to using &lt;a href=&quot;https:&#x2F;&#x2F;vuejs.org&#x2F;&quot;&gt;Vue.js&lt;&#x2F;a&gt; to revitalize the front end development stack.&lt;&#x2F;p&gt;
+&lt;p&gt;I wanted to refresh my Javascript skill set and become more familiar with Vue in order to position myself to help with these efforts. So, I decided it would be beneficial to participate in Advent of Code using Javascript as my language and by building out a front end in Vue to display and run my solution scripts.&lt;&#x2F;p&gt;
+&lt;p&gt;As of the time of this writing, I’ve solved through day 18 and only looked for help on day 13 where I got stuck thinking about cycles and remainders. I deployed the application up on Heroku and, assuming I havent hit my free limit of resources, you can see it in action &lt;a href=&quot;https:&#x2F;&#x2F;adventofcode2020blw.herokuapp.com&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;. Here are a couple of screenshots of the current state of the front end I built:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;advent1.png&quot; alt=&quot;the day layout&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;advent2.png&quot; alt=&quot;the calendar&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This has been a fun journey, and I’ve learned&#x2F;remembered a few things along the way:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The various forms of looping through an iterable in Javascript behave in pretty subtly but importantly different ways. For example, you can’t return early from a &lt;code&gt;forEach&lt;&#x2F;code&gt; loop and if you use an &lt;code&gt;Array.length&lt;&#x2F;code&gt; in your for loop paramaters you can easily catch yourself in an infinite loop.&lt;&#x2F;li&gt;
+&lt;li&gt;Typecasting can be pretty easy to mess up. I constantly caught myself forgetting to &lt;code&gt;parseInt&lt;&#x2F;code&gt; on a string and only finding out pretty far down the line in nefarious ways.&lt;&#x2F;li&gt;
+&lt;li&gt;Logging to the console doesn’t always produce the desired results. Objects often display their final state when expanded rather than the state when they were logged, for example.&lt;&#x2F;li&gt;
+&lt;li&gt;It’s particularly important to choose the proper scope for variables and objects in Javascript. Using &lt;code&gt;let&lt;&#x2F;code&gt;, &lt;code&gt;var&lt;&#x2F;code&gt;, and &lt;code&gt;const&lt;&#x2F;code&gt; in the proper places can go a long way toward preventing unexpected issues.&lt;&#x2F;li&gt;
+&lt;li&gt;I actually introduced a promise in a meaningful way which allowed me to alter the state of a Vue component and wait until my script solution completes. This felt nice after struggling so much with promises in the past.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Vue is a pretty nice and easy to use framework, even for smaller hobby&#x2F;one-off apps like this one. I really like how it separates the concerns between markup, script, data, and state.
+I need to start balancing my time with studying for the Certified Kubernetes Application Developer (CKAD) and AWS certifications I purchased vouchers for to take next year, so my progress may slow a bit over the holiday. That said, I fully plan to finish the entire 25 days in the next few weeks. Stay tuned!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Bedford West - software development</title>
+    <subtitle>Musings on tech, empathy, and what it means to be human</subtitle>
+    <link href="https://bedfordwest.me/tags/software-development/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://bedfordwest.me"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2020-12-22T00:00:00+00:00</updated>
+    <id>https://bedfordwest.me/tags/software-development/atom.xml</id>
+    <entry xml:lang="en">
+        <title>An Advent Journey in Javascript and Vue.js</title>
+        <published>2020-12-22T00:00:00+00:00</published>
+        <updated>2020-12-22T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bedfordwest.me/blog/advent2020/" type="text/html"/>
+        <id>https://bedfordwest.me/blog/advent2020/</id>
+        
+        <content type="html">&lt;p&gt;This month I’ve been hard at work participating in &lt;a href=&quot;https:&#x2F;&#x2F;adventofcode.com&#x2F;2020&quot;&gt;Advent of Code 2020&lt;&#x2F;a&gt;. We’ve recently switched over to trying &lt;a href=&quot;https:&#x2F;&#x2F;www.cypress.io&#x2F;&quot;&gt;Cypress&lt;&#x2F;a&gt; for our automation tool of choice at work, and the front end developers have recently switched over to using &lt;a href=&quot;https:&#x2F;&#x2F;vuejs.org&#x2F;&quot;&gt;Vue.js&lt;&#x2F;a&gt; to revitalize the front end development stack.&lt;&#x2F;p&gt;
+&lt;p&gt;I wanted to refresh my Javascript skill set and become more familiar with Vue in order to position myself to help with these efforts. So, I decided it would be beneficial to participate in Advent of Code using Javascript as my language and by building out a front end in Vue to display and run my solution scripts.&lt;&#x2F;p&gt;
+&lt;p&gt;As of the time of this writing, I’ve solved through day 18 and only looked for help on day 13 where I got stuck thinking about cycles and remainders. I deployed the application up on Heroku and, assuming I havent hit my free limit of resources, you can see it in action &lt;a href=&quot;https:&#x2F;&#x2F;adventofcode2020blw.herokuapp.com&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;. Here are a couple of screenshots of the current state of the front end I built:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;advent1.png&quot; alt=&quot;the day layout&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;advent2.png&quot; alt=&quot;the calendar&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This has been a fun journey, and I’ve learned&#x2F;remembered a few things along the way:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The various forms of looping through an iterable in Javascript behave in pretty subtly but importantly different ways. For example, you can’t return early from a &lt;code&gt;forEach&lt;&#x2F;code&gt; loop and if you use an &lt;code&gt;Array.length&lt;&#x2F;code&gt; in your for loop paramaters you can easily catch yourself in an infinite loop.&lt;&#x2F;li&gt;
+&lt;li&gt;Typecasting can be pretty easy to mess up. I constantly caught myself forgetting to &lt;code&gt;parseInt&lt;&#x2F;code&gt; on a string and only finding out pretty far down the line in nefarious ways.&lt;&#x2F;li&gt;
+&lt;li&gt;Logging to the console doesn’t always produce the desired results. Objects often display their final state when expanded rather than the state when they were logged, for example.&lt;&#x2F;li&gt;
+&lt;li&gt;It’s particularly important to choose the proper scope for variables and objects in Javascript. Using &lt;code&gt;let&lt;&#x2F;code&gt;, &lt;code&gt;var&lt;&#x2F;code&gt;, and &lt;code&gt;const&lt;&#x2F;code&gt; in the proper places can go a long way toward preventing unexpected issues.&lt;&#x2F;li&gt;
+&lt;li&gt;I actually introduced a promise in a meaningful way which allowed me to alter the state of a Vue component and wait until my script solution completes. This felt nice after struggling so much with promises in the past.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Vue is a pretty nice and easy to use framework, even for smaller hobby&#x2F;one-off apps like this one. I really like how it separates the concerns between markup, script, data, and state.
+I need to start balancing my time with studying for the Certified Kubernetes Application Developer (CKAD) and AWS certifications I purchased vouchers for to take next year, so my progress may slow a bit over the holiday. That said, I fully plan to finish the entire 25 days in the next few weeks. Stay tuned!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>On Deciding What to Do</title>
+        <published>2018-04-18T00:00:00+00:00</published>
+        <updated>2018-04-18T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bedfordwest.me/blog/on-deciding/" type="text/html"/>
+        <id>https://bedfordwest.me/blog/on-deciding/</id>
+        
+        <content type="html">&lt;p&gt;Now that I’ve finally got my personal site up and running, I’ve been thinking a lot about what to work on next. This is a more difficult problem to solve than it might seem, as there are multiple competing interests and needs. On one hand, I typically most enjoy working on hobby game projects. This provides a lot of room for creativity, while also allowing me to experiment with new development technologies or techniques. On the other hand, I sometimes feel like those projects aren’t teaching me as much as I could learn with some other, more specialized project. In addition, I often think I could better boost my portfolio with a more diverse project, as well.&lt;&#x2F;p&gt;
+&lt;p&gt;In addition to the question about what to work on next, there’s also the question of which language and tools to use, as well. For this, I’ve been doing some research on the current popularity of various languages, and have found this Stackify article by Ben Putano handy for consolidating some of the recent popularity measures. These three charts are particularly helpful:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;languages1.png&quot; alt=&quot;top languages 1&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;languages2.png&quot; alt=&quot;top languages 2&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;languages3.png&quot; alt=&quot;most pull requests&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;For me, I have the following considerations:&lt;&#x2F;p&gt;
+&lt;p&gt;I’m already pretty competant with Java due to my experience with libGDX and Selenium&#x2F;Cucumber-JVM at work.
+I’ve recently been working with JavaScript&#x2F;React for my personal site and some work side projects, but still at a basic competancy.
+I’ve worked with Python some at my last job, but never really got in depth with it or especially comfortable.
+I worked with C and C++ in the past for learning, school, and hobby game dev projects, but it’s been probably 10 years since I’ve touched either with any depth.
+I really, really have enjoyed my recent experience with Rust and learning functional programming techniques, but my knowledge of these is also still basic.
+Considering the above, if I want to focus on career it would seem that either continuing with JavaScript, working on a C or C++ project, or perhaps reapproaching Python would be the best idea. For personal enjoyment, I really like the idea of getting back to Rust.&lt;&#x2F;p&gt;
+&lt;p&gt;So, what to do? I’ll update here once I’ve figured something out…&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>On decoupling</title>
+        <published>2015-03-28T00:00:00+00:00</published>
+        <updated>2015-03-28T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bedfordwest.me/blog/on-decoupling/" type="text/html"/>
+        <id>https://bedfordwest.me/blog/on-decoupling/</id>
+        
+        <content type="html">&lt;p&gt;After working in the software industry for a while, I’ve realized the importance of decoupling when designing code. What is decoupling in the context of development? Essentially, it’s the practice of removing interactivity between pieces of code which can or should operate independently. In object oriented programming, for example, this might mean separating out blocks of functionality within a large class into several smaller classes, each operating independently from one another.&lt;&#x2F;p&gt;
+&lt;p&gt;I won’t rehash the numerous things that have been said about why this is important, but the short summary is the following:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Decoupled code is less likely to break when something unrelated is modified.&lt;&#x2F;li&gt;
+&lt;li&gt;It is often easier to read and understand decoupled code.&lt;&#x2F;li&gt;
+&lt;li&gt;Decoupling code can facilitate Test-Driven Development and unit testing.&lt;&#x2F;li&gt;
+&lt;li&gt;It is usually easier to maintain and troubleshoot decoupled code.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;A few months ago, I spent some time learning a Java-based game development framework called libGDX. After working on a hobby game project for a few weeks, I became distracted and set aside the effort for a few months. Tonight, I picked the project back up and looked at it with a fresh set of eyes. What did I find? There is ample opportunity for some decoupling of the code I have already written.&lt;&#x2F;p&gt;
+&lt;p&gt;The first thing I wanted to do was ask myself the following question: “If I were to want to publish independent systems of this game as reusable tool sets to a public repository, would I be able to?” In order to answer that question, I first needed to establish which systems I would want to do that with, in the first place. After some thought, I decided the only system I can initially think of which fits this criteria is the random map generation tool I developed to help procedurally generate my stages for the game.&lt;&#x2F;p&gt;
+&lt;p&gt;It works like this:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Provide the map generator with some set of parameters to determine size, spaciousness, and general shape.&lt;&#x2F;li&gt;
+&lt;li&gt;Iterate through an algorithm a number of times to refine the map to the desired shape.&lt;&#x2F;li&gt;
+&lt;li&gt;Clean up the produced map to ensure it fits the parameters necessary for the game.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The idea is simple enough, and it’s something I could see being useful for other projects in the future. So, I should find a way to decouple it such that I can publish it to an independent repository and enable it to interact via some sort of universal input&#x2F;output mechanism, right? Let’s see how it looks.&lt;&#x2F;p&gt;
+&lt;p&gt;Right, so starting at the top…&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;java&quot; class=&quot;language-java z-code&quot;&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;z-source z-java&quot;&gt;&lt;span class=&quot;z-comment z-block z-documentation z-javadoc&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-javadoc&quot;&gt;&#x2F;**&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-block z-documentation z-javadoc&quot;&gt;&lt;span class=&quot;z-text z-html z-javadoc&quot;&gt;
+&lt;span class=&quot;z-punctuation z-definition z-comment z-javadoc&quot;&gt;*&lt;&#x2F;span&gt; Created by Bedford on 3&#x2F;28&#x2F;2015.
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-block z-documentation z-javadoc&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-end z-javadoc&quot;&gt;*&#x2F;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+
+&lt;span class=&quot;z-meta z-import z-java&quot;&gt;&lt;span class=&quot;z-keyword z-control z-import z-java&quot;&gt;import&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-path z-java&quot;&gt;&lt;span class=&quot;z-support z-type z-package z-java&quot;&gt;com&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-path z-java&quot;&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-java&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-type z-package z-java&quot;&gt;badlogic&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-java&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-type z-package z-java&quot;&gt;gdx&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-java&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-class z-import z-java&quot;&gt;Gdx&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-java&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-import z-java&quot;&gt;&lt;span class=&quot;z-keyword z-control z-import z-java&quot;&gt;import&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-path z-java&quot;&gt;&lt;span class=&quot;z-support z-type z-package z-java&quot;&gt;com&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-path z-java&quot;&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-java&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-type z-package z-java&quot;&gt;gletho&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-java&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-type z-package z-java&quot;&gt;util&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-java&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-class z-import z-java&quot;&gt;Constants&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-java&quot;&gt;;&lt;&#x2F;span&gt;
+
+&lt;span class=&quot;z-meta z-import z-java&quot;&gt;&lt;span class=&quot;z-keyword z-control z-import z-java&quot;&gt;import&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-path z-java&quot;&gt;&lt;span class=&quot;z-support z-type z-package z-java&quot;&gt;java&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-path z-java&quot;&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-java&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-type z-package z-java&quot;&gt;util&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-java&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-class z-import z-java&quot;&gt;ArrayList&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-java&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-import z-java&quot;&gt;&lt;span class=&quot;z-keyword z-control z-import z-java&quot;&gt;import&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-path z-java&quot;&gt;&lt;span class=&quot;z-support z-type z-package z-java&quot;&gt;java&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-path z-java&quot;&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-java&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-type z-package z-java&quot;&gt;util&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-java&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-class z-import z-java&quot;&gt;List&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-java&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-import z-java&quot;&gt;&lt;span class=&quot;z-keyword z-control z-import z-java&quot;&gt;import&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-path z-java&quot;&gt;&lt;span class=&quot;z-support z-type z-package z-java&quot;&gt;java&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-path z-java&quot;&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-java&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-type z-package z-java&quot;&gt;util&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-java&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-class z-import z-java&quot;&gt;Random&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-java&quot;&gt;;&lt;&#x2F;span&gt;
+
+&lt;span class=&quot;z-meta z-class z-java&quot;&gt;&lt;span class=&quot;z-storage z-modifier z-java&quot;&gt;public&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-class z-identifier z-java&quot;&gt;&lt;span class=&quot;z-storage z-type z-java&quot;&gt;class&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-name z-class z-java&quot;&gt;MapGenerator&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-class z-body z-java&quot;&gt;&lt;span class=&quot;z-meta z-block z-java&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-block z-begin z-java&quot;&gt;{&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Oh boy. So, this isn’t a great start. What’s the problem? Well, first of all, the very package name this class belongs to indicates a problem. com.gletho.levels is a clear indication that this class is meant to exist within a package directly tied to the level generation of my game, Gletho. If this tool is supposed to exist independently of the game, that’s clearly not going to work.&lt;&#x2F;p&gt;
+&lt;p&gt;Next, we see that this class imports functionality from both the game and the Gdx libraries. This is clearly a problem, since neither would work if this were published as an independent toolset.&lt;&#x2F;p&gt;
+&lt;p&gt;Great. Now that we’ve identified those problems, let’s move on.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;java&quot; class=&quot;language-java z-code&quot;&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;z-source z-java&quot;&gt;&lt;span class=&quot;z-storage z-type z-primitive z-java&quot;&gt;int&lt;&#x2F;span&gt; deathLimit &lt;span class=&quot;z-meta z-assignment z-rhs z-java&quot;&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-java&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-integer z-decimal z-java&quot;&gt;3&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-java&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-storage z-type z-primitive z-java&quot;&gt;int&lt;&#x2F;span&gt; numberOfSteps &lt;span class=&quot;z-meta z-assignment z-rhs z-java&quot;&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-java&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-integer z-decimal z-java&quot;&gt;6&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-java&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Alright, here’s another problem. These are parameters used to indicate the shape of the map, and they are baked directly into the class. Ideally, this tool would allow the user to specify these parameters at runtime or upon instantiation. These should be initialized via parameters in a constructor! Ok, what’s next?&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;java&quot; class=&quot;language-java z-code&quot;&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;z-source z-java&quot;&gt;&lt;span class=&quot;z-comment z-line z-double-slash z-java&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-java&quot;&gt;&#x2F;&#x2F;&lt;&#x2F;span&gt;   a map should be through this method
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-storage z-modifier z-java&quot;&gt;public&lt;&#x2F;span&gt; &lt;span class=&quot;z-support z-class z-java&quot;&gt;List&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-generic z-java&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-generic z-begin z-java&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-class z-java&quot;&gt;LevelTile&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-generic z-end z-java&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function-call z-java&quot;&gt;&lt;span class=&quot;z-variable z-function z-java&quot;&gt;getMap&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-section z-parens z-begin z-java&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-storage z-type z-primitive z-java&quot;&gt;long&lt;&#x2F;span&gt; seed&lt;span class=&quot;z-punctuation z-section z-parens z-end z-java&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-block z-java&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-block z-begin z-java&quot;&gt;{&lt;&#x2F;span&gt;
+    &lt;span class=&quot;z-meta z-function-call z-java&quot;&gt;&lt;span class=&quot;z-variable z-function z-java&quot;&gt;generateMap&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-section z-parens z-begin z-java&quot;&gt;(&lt;&#x2F;span&gt;seed&lt;span class=&quot;z-punctuation z-section z-parens z-end z-java&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-java&quot;&gt;;&lt;&#x2F;span&gt;
+    &lt;span class=&quot;z-keyword z-control z-flow z-return z-java&quot;&gt;return&lt;&#x2F;span&gt; levelTiles&lt;span class=&quot;z-punctuation z-terminator z-java&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-punctuation z-section z-block z-end z-java&quot;&gt;}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Here is the method whereby I intended for the game to obtain generated maps. That’s good, in principle, but why is the output a List of LevelTile objects? LevelTile is a class defined within my game. If this is going to be externalized, I need to find a more generic output format and design a utility class within my game to convert it to something usable. This utility class could even be decoupled to be reusable for any libGDX project, if so desired.&lt;&#x2F;p&gt;
+&lt;p&gt;I could continue, but I think this gets the point across, and I need to actually start working on resolving these issues! So, let this be a lesson (both to the reader and to my future self): always think about reusability and decoupling when designing your code! It may save quite a bit of time in future endeavors.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

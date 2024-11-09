@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Bedford West - rust</title>
+    <subtitle>Musings on tech, empathy, and what it means to be human</subtitle>
+    <link href="https://bedfordwest.me/tags/rust/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://bedfordwest.me"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2018-04-18T00:00:00+00:00</updated>
+    <id>https://bedfordwest.me/tags/rust/atom.xml</id>
+    <entry xml:lang="en">
+        <title>On Deciding What to Do</title>
+        <published>2018-04-18T00:00:00+00:00</published>
+        <updated>2018-04-18T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bedfordwest.me/blog/on-deciding/" type="text/html"/>
+        <id>https://bedfordwest.me/blog/on-deciding/</id>
+        
+        <content type="html">&lt;p&gt;Now that I’ve finally got my personal site up and running, I’ve been thinking a lot about what to work on next. This is a more difficult problem to solve than it might seem, as there are multiple competing interests and needs. On one hand, I typically most enjoy working on hobby game projects. This provides a lot of room for creativity, while also allowing me to experiment with new development technologies or techniques. On the other hand, I sometimes feel like those projects aren’t teaching me as much as I could learn with some other, more specialized project. In addition, I often think I could better boost my portfolio with a more diverse project, as well.&lt;&#x2F;p&gt;
+&lt;p&gt;In addition to the question about what to work on next, there’s also the question of which language and tools to use, as well. For this, I’ve been doing some research on the current popularity of various languages, and have found this Stackify article by Ben Putano handy for consolidating some of the recent popularity measures. These three charts are particularly helpful:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;languages1.png&quot; alt=&quot;top languages 1&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;languages2.png&quot; alt=&quot;top languages 2&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;languages3.png&quot; alt=&quot;most pull requests&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;For me, I have the following considerations:&lt;&#x2F;p&gt;
+&lt;p&gt;I’m already pretty competant with Java due to my experience with libGDX and Selenium&#x2F;Cucumber-JVM at work.
+I’ve recently been working with JavaScript&#x2F;React for my personal site and some work side projects, but still at a basic competancy.
+I’ve worked with Python some at my last job, but never really got in depth with it or especially comfortable.
+I worked with C and C++ in the past for learning, school, and hobby game dev projects, but it’s been probably 10 years since I’ve touched either with any depth.
+I really, really have enjoyed my recent experience with Rust and learning functional programming techniques, but my knowledge of these is also still basic.
+Considering the above, if I want to focus on career it would seem that either continuing with JavaScript, working on a C or C++ project, or perhaps reapproaching Python would be the best idea. For personal enjoyment, I really like the idea of getting back to Rust.&lt;&#x2F;p&gt;
+&lt;p&gt;So, what to do? I’ll update here once I’ve figured something out…&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Bedford West - linux</title>
+    <subtitle>Musings on tech, empathy, and what it means to be human</subtitle>
+    <link href="https://bedfordwest.me/tags/linux/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://bedfordwest.me"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2015-05-21T00:00:00+00:00</updated>
+    <id>https://bedfordwest.me/tags/linux/atom.xml</id>
+    <entry xml:lang="en">
+        <title>An Experiment with Arch and i3 Tiling Window Manager - Part 3</title>
+        <published>2015-05-21T00:00:00+00:00</published>
+        <updated>2015-05-21T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bedfordwest.me/blog/arch-pt3/" type="text/html"/>
+        <id>https://bedfordwest.me/blog/arch-pt3/</id>
+        
+        <content type="html">&lt;p&gt;So things are going quite well with my Arch + i3 build! I was able to get sound working without much difficulty after simply installing my drivers, tweaking ALSA and then installing PulseAudio. The only tweaks I had to really do were as follows:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The wrong device was being detected as the default sound device, so I had to tweak, if I recall, the &lt;code&gt;\etc\modprob.d\alsa-base.conf&lt;&#x2F;code&gt; settings file to manually set the correct default.&lt;&#x2F;li&gt;
+&lt;li&gt;My laptop’s sound buttons did not adjust the volume at first, so I had to use xev to identify which key values were mapped to my keyboard’s sound buttons.
+After I did those things, my sound worked great! The only remaining initial item I needed to do to call my “base” installation complete was to customize my UI. So, I downloaded the feh image viewer, which goes well with i3, and then used it to take screenshots and set my background. I downloaded some fonts (Fira and Linux Libertine&#x2F;Biolinum, in particular), grabbed a plugin for Firefox, and started tweaking some settings. I also grabbed the Xfce4 Terminal.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;After tweaking a bunch of settings, here is a screenshot I took on Friday:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;arch_desktop.jpeg&quot; alt=&quot;arch picture&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I’ve since removed the scrollbars from the terminal windows and adjusted my DPI settings to more accurately fit my displays. I have to say, I’m really enjoying it so far! Everything looks great, and it seems like a very fitting environment to develop in. I’m sure I’ll have many more additional tweaks, but I’m happy with the results thus far. My next quest is to publish some dotfiles on my GitHub account and start tweaking Emacs to fit my development paradigms.&lt;&#x2F;p&gt;
+&lt;p&gt;Until next time!&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bedfordwest.me&#x2F;blog&#x2F;arch-pt3&#x2F;arch-intro&quot;&gt;Intro&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bedfordwest.me&#x2F;blog&#x2F;arch-pt3&#x2F;arch-pt1&quot;&gt;Part 1 - Adventures with Xorg!&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bedfordwest.me&#x2F;blog&#x2F;arch-pt3&#x2F;arch-pt2&quot;&gt;Part 2 - External Woes&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>An Experiment with Arch and i3 Tiling Window Manager - Part 2</title>
+        <published>2015-05-19T00:00:00+00:00</published>
+        <updated>2015-05-19T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bedfordwest.me/blog/arch-pt2/" type="text/html"/>
+        <id>https://bedfordwest.me/blog/arch-pt2/</id>
+        
+        <content type="html">&lt;p&gt;The joy of learning continues as I move forward with my attempt at setting up a functional Arch + i3 work environment on my laptop.&lt;&#x2F;p&gt;
+&lt;p&gt;Progress:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arch installed&lt;&#x2F;li&gt;
+&lt;li&gt;i3 installed&lt;&#x2F;li&gt;
+&lt;li&gt;i3 boots up and displays separate workspaces on each display when connected to an external monitor&lt;&#x2F;li&gt;
+&lt;li&gt;Wi-Fi working with NetworkManager&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Known Problems:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;No sound&lt;&#x2F;li&gt;
+&lt;li&gt;Ugly interface&lt;&#x2F;li&gt;
+&lt;li&gt;No backup&#x2F;snapshot system installed&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Alright, so what has happened since my last post? Well, despite my joy at having gotten i3 and Xorg to work correctly on my installation, I soon realized that I was not in the clear. When I went to boot up my laptop for the first time after my last post, I realized my external monitor was no longer displaying anything. In fact, it turns out the system wasn’t registering the monitor as connected at all. I spent a while trying to adjust Xorg or i3 settings, but nothing seemed to work. I also tried various video driver tweaks, which also did nothing to resolve the issue.&lt;&#x2F;p&gt;
+&lt;p&gt;After a while, I discovered Arch has a wiki page for my particular laptop model. This is one reason why Open Source (and Arch Linux, in particular) are so amazing - the community support can often be fantastic. Once I found that page, I saw the notes at the bottom concerning things that don’t work or need adjustment for my model. This led me to me to discover Linux Dynamic Kernel Module Support. It turns out that the proprietary Nvidia drivers my laptop model needs are not compatible with the default Linux DKMS. I tried to work around this, but it is actually the workaround (adding nomodeset to my boot parameters) that caused my external monitor to no longer be recognized in the first place.&lt;&#x2F;p&gt;
+&lt;p&gt;It turns out a user has made and maintained a version of the DKMS that works with Nvidia in the Arch User Repository. This isn’t ideal, as it adds a level of risk from both a security standpoint and also from the standpoint of system stability. Given the popularity of the package, frequency of update, and necessity on my end, however, I deemed these risks to be worth taking.&lt;&#x2F;p&gt;
+&lt;p&gt;After installing the &lt;code&gt;nvidia-dkms&lt;&#x2F;code&gt; package from the AUR, my external monitor started working again! Unfortunately, this was not the end of my monitor troubles. While the monitor was being detected and was displaying output, it was always an exact mirror of my laptop primary display. This is not the intended behavior per the i3 documentation, so I realized something was wrong. The solution to this problem required an increase to my knowledge of xrandr.&lt;&#x2F;p&gt;
+&lt;p&gt;While I did not discover the root cause of my problem with the mirrored displays, I did find an acceptable solution. The xrandr utility is packaged with Xorg to help identify and configure displays. It turns out executing a particular xrandr command would set the output of my external monitor to my desired configuration. This command was simply &lt;code&gt;xrandr --output eDP1 --auto --left-of VGA1&lt;&#x2F;code&gt;, where &lt;code&gt;eDP1&lt;&#x2F;code&gt; is my laptop primary display and &lt;code&gt;VGA1&lt;&#x2F;code&gt; is my external monitor. In order for this setting to work with i3, however, I needed to add the command as an executable statement in my &lt;code&gt;~&#x2F;.i3&#x2F;config&lt;&#x2F;code&gt; file. The syntax for this was simply &lt;code&gt;exec --no-startup-id xrandr --output eDP1 --auto --left-of VGA1&lt;&#x2F;code&gt;. Once I did this, my external display now displayed output independently from my laptop primary display and defaulted to a separate workspace, as expected!&lt;&#x2F;p&gt;
+&lt;p&gt;Despite hearing so many terrible things about setting up Wi-Fi on Linux and, despite having a wireless adaptor known to have conflicts with Linux, I actually had a fairly easy time getting my Wi-Fi to work. I simply needed to identify the correct driver &amp;amp; firmware I needed to install (as the adapter was not working correctly out of the box), install that from the AUR, and then install and start NetworkManager and the NetworkManager Applet. The only remaining step was to add the applet to my i3 config file as an executable command. I also needed to install the Gnome Keychain in order to authenticate with my wireless network. After doing this, the NetworkManager starts correctly when I load i3 and automatically connects to my network. Easy!&lt;&#x2F;p&gt;
+&lt;p&gt;The last thing I did was add startx to my &lt;code&gt;~&#x2F;.bash_profile&lt;&#x2F;code&gt; so that i3 starts up as soon as I log in.&lt;&#x2F;p&gt;
+&lt;p&gt;So, I think I’m getting there! This has definitely been extremely rewarding, and I think the toughest parts of my installation are probably behind me. I still need to address the “known problems” from above, but I’m hoping those will be relatively painless. After that, I’m free to play around with customizing my UI and workspace!&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bedfordwest.me&#x2F;blog&#x2F;arch-pt2&#x2F;arch-intro&quot;&gt;Intro&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bedfordwest.me&#x2F;blog&#x2F;arch-pt2&#x2F;arch-pt1&quot;&gt;Part 1 - Adventures with Xorg!&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bedfordwest.me&#x2F;blog&#x2F;arch-pt2&#x2F;arch-pt3&quot;&gt;Part 3 - Looking Good&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>An Experiment with Arch and i3 Tiling Window Manager - Part 1</title>
+        <published>2015-05-18T00:00:00+00:00</published>
+        <updated>2015-05-18T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bedfordwest.me/blog/arch-pt1/" type="text/html"/>
+        <id>https://bedfordwest.me/blog/arch-pt1/</id>
+        
+        <content type="html">&lt;p&gt;Hello again, everyone!&lt;&#x2F;p&gt;
+&lt;p&gt;So, when I last left you, I was beginning my journey with attempting to install Arch Linux and the i3 Tiling Window Manager for my personal laptop. As expected, things did not go smoothly, initially. One thing I enjoy about trying something like Arch out, however, is that you really get your hands dirty and have to work to achieve your goals.&lt;&#x2F;p&gt;
+&lt;p&gt;The first time I attempted this installation a little over a year ago, things went smoothly until I needed to install my video drivers and attempt to have Xorg display some basic output to my screen. You see, the Dell Precision M4800 laptop I have actually comes with two video adapters (one integrated Intel and one high-performance Nvidia) which utilize a technology called &lt;code&gt;Nvidia Optimus&lt;&#x2F;code&gt;. The thing is, Nvidia is notorious for having proprietary driver conflicts with Linux, and this technology only adds to that conundrum.&lt;&#x2F;p&gt;
+&lt;p&gt;It turns out this most recent install of Arch met with much the same fate. I was able to get a basic installation going just fine by following the Arch Beginner’s Guide. The problem came immediately after finishing this guide, when I tried to follow the General recommendations section to begin doing things like install a Windows Manager.&lt;&#x2F;p&gt;
+&lt;p&gt;Here’s the thing: based on the way the instructions were written, I assumed I just needed to install my video drivers, then &lt;code&gt;Xorg&lt;&#x2F;code&gt;, then &lt;code&gt;Bumblebee&lt;&#x2F;code&gt; (an open source implementation of &lt;code&gt;Optimus&lt;&#x2F;code&gt;) and I would be on my way. The problem is that, upon doing this, I was receiving all sorts of fun errors when attempting to &lt;code&gt;load Xorg&lt;&#x2F;code&gt; or &lt;code&gt;run optirun glxgears -info&lt;&#x2F;code&gt;. These errors were generally of the following fashion:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;systemd-logind: failed to get session PID XXX does not belong to any known session
+could not detect any displays
+could not detect any devices
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The problem with these errors is that they are actually fairly common, which means they arise from a number of possible conditions. This led me to follow a number of support threads and sections of the Arch Wiki to no avail.&lt;&#x2F;p&gt;
+&lt;p&gt;After tinkering around with things for two full nights and stumbling upon various threads, I finally solved my problem. It turns out, I think, that my problem was as simple as not understanding the components of Xorg and what was actually necessary for it to draw to the screen. For starters, when I installed the Xorg packages, I didn’t realize that &lt;code&gt;pacman -S xorg&lt;&#x2F;code&gt; would not install all of the necessary dependencies when I select “all” for the packages to install. I actually had to manually install &lt;code&gt;xorg-server&lt;&#x2F;code&gt;, &lt;code&gt;xorg-utils&lt;&#x2F;code&gt;, &lt;code&gt;xorg-init&lt;&#x2F;code&gt;, &lt;code&gt;xorg-server-utils&lt;&#x2F;code&gt;, and &lt;code&gt;xorg-term&lt;&#x2F;code&gt;. In addition, I didn’t realize that I had to copy over an &lt;code&gt;.xinitrc&lt;&#x2F;code&gt; file to my home directory and then include an exec &lt;code&gt;&amp;lt;display manager&amp;gt;&lt;&#x2F;code&gt; command in there somewhere. So, once I learned this and downloaded i3, I was able to point &lt;code&gt;xinitrc&lt;&#x2F;code&gt; to i3 and start up i3 just fine with the startx command.&lt;&#x2F;p&gt;
+&lt;p&gt;So, I’m off! It’s been a challenge so far, but I’ve already learned a lot. In particular, I’ve learned quite a bit about the newly integrated systemd, how Xorg works, and also a bit about editing Kernel configurations in the bootloader and working with basic networking.&lt;&#x2F;p&gt;
+&lt;p&gt;I can’t wait to see where this experiment takes me next!&lt;&#x2F;p&gt;
+&lt;p&gt;Oh, btw - I know these are heavy on words and light on images at the moment. Once I get to a point where I can take screenshots on the new box, I’ll work on getting some images in these posts!&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bedfordwest.me&#x2F;blog&#x2F;arch-pt1&#x2F;arch-intro&quot;&gt;Intro&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bedfordwest.me&#x2F;blog&#x2F;arch-pt1&#x2F;arch-pt2&quot;&gt;Part 2 - External Woes&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bedfordwest.me&#x2F;blog&#x2F;arch-pt1&#x2F;arch-pt3&quot;&gt;Part 3 - Looking Good&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>An Experiment with Arch and i3 Tiling Window Manager - Intro</title>
+        <published>2015-05-15T00:00:00+00:00</published>
+        <updated>2015-05-15T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bedfordwest.me/blog/arch-intro/" type="text/html"/>
+        <id>https://bedfordwest.me/blog/arch-intro/</id>
+        
+        <content type="html">&lt;p&gt;I’ve needed to do something with my Dell Precision M4800 laptop for a while now. I had previously attempted to install Arch Linux on it, but ran into trouble with getting Bumblebee installed in order to properly handle the dual video cards in the laptop.&lt;&#x2F;p&gt;
+&lt;p&gt;That was about a year ago, and I’m ready to jump back into it and try again. I’ve been using Linux and Emacs a lot at work, and now I really want to work out of an environment where I can use the keyboard much more and keep the OS out of my way when I want to work. For that reason, I plan to try Arch again and combine it with the i3 Tiling Window Manager. I plan to do something similar to my Desktop at some point, but I figured it would be nice to have something more mobile in my laptop to carry my work with me while the summer remains.&lt;&#x2F;p&gt;
+&lt;p&gt;So, here goes nothing! This post will service as both the introduction and sort of a “Table of Contents” of my, hopefully, future posts on the subject.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bedfordwest.me&#x2F;blog&#x2F;arch-intro&#x2F;arch-pt1&quot;&gt;Part 1 - Adventures with Xorg!&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bedfordwest.me&#x2F;blog&#x2F;arch-intro&#x2F;arch-pt2&quot;&gt;Part 2 - External Woes&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bedfordwest.me&#x2F;blog&#x2F;arch-intro&#x2F;arch-pt3&quot;&gt;Part 3 - Looking Good&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
