@@ -1,7 +1,7 @@
 +++
 title = "Bedford West"
 description = "Bedford's blog and portfolio"
-date = 2022-10-09
+date = 2024-11-08
 +++
 <br />
 
